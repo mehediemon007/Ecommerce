@@ -1,0 +1,667 @@
+/* Min Width 1400px */
+@media only screen and (min-width:1400px){
+    .container{
+        max-width: 1340px !important;
+    }
+
+    .mega-menu-content{
+        min-height: 250px !important;
+    }
+
+    .news-tab-links{
+        min-width: 395px !important;
+    }
+
+}
+
+/* Min Width 1200px */
+@media only screen and (min-width:1200px){
+    
+    .blog-mega-menu{
+        grid-template-columns: repeat(4,1fr) !important;
+    }
+
+    .news-tab-links{
+        min-width: 330px;
+        justify-content: space-between;
+    }
+
+}
+
+/* Min Width 992px */
+
+@media only screen and (min-width:992px){
+
+    .an-banner .owl-carousel .owl-stage{
+        padding-top: 120px;
+    }
+    
+    .an-banner .owl-carousel .owl-item.center img{
+        transform: scaleY(1.10) translateY(-28px);
+    }
+
+    /* Navbar */
+
+    .an-nav ul li{
+        margin: 0 10px;
+        text-transform: uppercase;
+    }
+
+    ul li.has-children{
+        position: relative;
+    }
+
+    .an-nav ul a{
+        display: inline-block;
+        font-weight: var(--font-weight-semi-bold);
+    }
+
+    .bg-dark ul a,
+    .bg-dark ul a span,
+    .an-nav.bg-dark .uil{
+        color: var(--white-color);
+    }
+
+    .bg-dark ul ul a,
+    .bg-dark ul ul a span,
+    .an-nav.bg-dark ul ul .uil{
+        color: var(--text-color);
+    }
+
+    .an-food-header {
+        background-color: var(--dark-color);
+    }
+
+    .an-food-header li a,
+    .an-food-header li a span,
+    .an-food-header a .uil{
+        color: var(--secondary-color);
+    }
+
+    .an-food-header .sub-menu a,
+    .an-food-header .sub-menu span,
+    .an-food-header .sub-menu .uil{
+        color: var(--text-color);
+    }
+
+    .an-food-header .sub-menu li a:hover,
+    .an-food-header .sub-menu li a:hover span{
+        color: var(--secondary-color);
+    }
+
+    .an-nav .sub-menu{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        min-width: 220px;
+        background-color: var(--white-color);
+        border-top: 3px solid var(--hover-color);
+        border-radius: 0 0 5px 5px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+        z-index: 10;
+        transform: scale(0);
+        transform-origin: top;
+        opacity: 0;
+        transition: all var(--transition);
+    }
+
+    .an-nav .sub-menu .sub-menu{
+        left: 100%;
+        opacity: 0 !important;
+        visibility: hidden;
+    }
+
+    .right-to-left .an-nav .sub-menu .sub-menu{
+        left: auto;
+        right: 100%;
+    }
+
+    .an-food-header .an-nav .sub-menu{
+        border-top-color: var(--secondary-color);
+    }
+    
+    .an-nav .sub-menu li{
+        display: block !important;
+        padding: 10px 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+        border-left: 2px solid transparent;
+        margin-left: 0;
+        transition: border-color var(--transition);
+    }
+
+    .an-nav .sub-menu .has-children{
+        padding: 4px 20px;
+    }
+
+    .sub-menu li a{
+        font-size: .83rem;
+        font-weight: var(--font-weight-medium);
+    }
+
+    .mega-menu li span{
+        font-size: .81rem;
+    }
+
+    .mega-menu li{
+        padding: 10px 0 !important;
+    }
+    
+    .an-nav ul li:hover .sub-menu{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .an-nav .sub-menu li:hover .sub-menu{
+        top: 0;
+        opacity: 1 !important;
+        visibility: visible;
+    }
+
+    .an-nav .sub-menu li:hover{
+        border-left: 3px solid var(--hover-color);   
+    }
+
+    .an-food-header .sub-menu li:hover{
+        border-left-color: var(--secondary-color);
+    }
+
+    .an-nav .mega-menu{
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .an-nav .mega-menu li{
+        border: none;
+    }
+
+    .an-nav .mega-menu li:hover{
+        border: none;
+    }
+
+    .mega-menu-content{
+        min-height: 220px;
+    }
+
+    .nav-right .lang-switcher{
+        display: none;
+    }
+    
+    .blog-mega-menu{
+        position: absolute;
+        left: 190px;
+        top: 10px;
+        width: calc(100% - 250px);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 16px;
+        visibility: hidden;
+        opacity: 0;
+        transition: var(--transition);
+    }
+
+    body.right-to-left .blog-mega-menu{
+        left: 65px;
+    } 
+    
+    .blog-mega-menu .single-blog{
+        display: grid;
+        grid-row-gap: 16px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    }
+    
+    .blog-mega-menu .single-blog p{
+        font-size: .81rem;
+    }
+    
+    .an-nav ul li:hover > .blog-mega-menu{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .show-first{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .bg-image,
+    .bg-image img{
+        height: 100%;
+    }
+}
+
+/* Max Width 1399px  */
+
+@media only screen and (max-width:1399px){
+
+    .widget-social-links span{
+        font-size: .9rem;
+    }
+
+    h1{
+        font-size: 1.80rem;
+    }
+    
+    h2{
+        font-size: 1.40rem;
+    }
+    
+    h3{
+        font-size: 1.20rem;
+    }
+    
+    h4{
+        font-size: 1rem;
+    }
+    
+    h5{
+        font-size: .90rem;
+    }
+    
+    h6{
+        font-size: .80rem;
+    }
+
+    p,a,span{
+        font-size: .8125rem;
+    }
+
+    .news-tab-links .nav-link{
+        font-size: 1rem;
+    }
+
+    .an-nav ul li{
+        padding: 14px 0;
+    }
+
+    .an-nav ul a,
+    .an-nav ul a span{
+        font-size: .85rem;
+    }
+
+    input::placeholder{
+        font-size: .85rem;
+    }
+    
+    .meta-data{
+        font-size: .85rem;
+    }
+
+    .an-breadcrumb .breadcrumb-link:not(:last-of-type)::after{
+        font-size: .8125rem;
+    }
+
+    .view-more-btn{
+        font-size: 1.15rem;
+    }
+
+    .footer-about p{
+        font-size: .95rem;
+    }
+
+    .footer-top .social-links a{
+        font-size: 1.25rem;
+    }
+}
+
+/* Max Width 1199px */
+
+@media only screen and (max-width:1199px){
+
+    .category-widget{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 24px;
+    }
+
+    .food-category-list{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .blog-mega-menu .blog-menu-item:nth-last-child(-n+1){
+        display: none;
+    }
+
+    .toolbar-social-links .social-link{
+        margin-left: 7px;
+    }
+
+}
+
+/* Max Width 991px */
+
+@media only screen and (max-width:991px){
+
+    .an-toolbar{
+        display: none;
+    }
+
+    .single-blog .blog-image img,
+    .an-siderbar-widget img{
+        width: 100%;
+    }
+
+    .an-banner .owl-carousel .owl-stage{
+        padding-top: 80px;
+    }
+    
+    .an-food-blogs .blog-image img{
+        max-height: 350px;
+    }
+
+    .nav-search{
+        width: 100%;
+        top: 47px;
+    }
+
+    .nav-search input{
+        padding: 5px 10px;
+        margin: 10px 5%;
+    }
+
+    /* Mobile Nav Menu */
+
+    .an-nav{
+        padding: 10px 0;
+    }
+
+    .dark-theme .an-nav{
+        border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+
+    .an-main-nav{
+        position: absolute;
+        top: 48px;
+        left: 0;
+        display: none;
+        width: 100%;
+        background-color: var(--white-color);
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+        padding: 15px 20px;
+        z-index: 20;
+    }
+
+    .dark-theme .an-main-nav{
+        background-color: var(--dark-color);
+    }
+
+    .an-nav ul li{
+        padding: 0;
+    }
+
+    .nav-menu li a{
+        display: block;
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    
+    .nav-menu li:last-child a,
+    .nav-menu ul li a{
+        border-bottom: none;
+    }
+
+    .nav-menu li.has-children a{
+        justify-content: space-between;
+    }
+    
+    .sub-menu{
+        display: none;
+    }
+
+    .sub-menu li{
+        padding-left: 24px;
+    }
+    
+
+    .an-nav .uil{
+        font-size: 1.5rem;
+    }
+
+    .an-nav .uil-angle-down{
+        font-size: 1.15rem !important;
+    }
+
+    .lang-switcher .lang-list{
+        left: auto;
+        right: -5px;
+    }
+
+    .right-to-left .lang-switcher .lang-list{
+        right: auto;
+        left: -5px;
+    }
+
+    .an-food-header .nav-menu li a.nav-active,
+    .an-food-header .nav-menu li a.nav-active span,
+    .an-food-header .nav-menu li a:hover,
+    .an-food-header .nav-menu li a:hover span{
+        color: var(--secondary-color);
+    }
+
+    .bg-dark .nav-right i{
+        color: var(--white-color);
+    }
+
+    /* Weekly Top */
+
+    .an-weekly-top .owl-nav .owl-prev {
+        left: 90%;
+    }
+
+    .right-to-left .an-weekly-top .owl-nav .owl-next{
+        right: 90%;
+    }
+
+    .account-widget{
+        margin-bottom: 24px;
+        padding: 10px 16px;
+    }
+
+    .account-menu{
+        display: none;
+    }
+
+}
+
+/* Max Width 767px */
+
+@media only screen and (max-width:767px){
+
+    .an-ads{
+        padding: 40px 0;
+    }
+
+    .an-banner .owl-carousel .owl-stage{
+        padding-top: 40px;
+    }
+
+    .arrow-btn{
+        top: 0;
+    }
+
+    .blog-list-view{
+        grid-template-columns: 1fr;
+    }
+
+    .blog-list-view .blog-content{
+        padding-left: 0;
+    }
+    
+    .video-post-info{
+        margin-top: 16px;
+    }
+
+    .category-2 .single-blog{
+        grid-template-columns: 1fr;
+    }
+
+    .hoz-blog .blog-image img,
+    .hoz-blog .blog-content{
+        border-radius: 0;
+    }
+
+    .popular-recepies .single-blog{
+        grid-template-columns: 1fr;
+    }
+
+    .week-top-news .single-blog .meta-data{
+        gap: 3px;
+    }
+
+    /* Weekly Top */
+
+    .an-weekly-top .owl-nav .owl-prev {
+        left: 87%;
+    }
+
+    .right-to-left .an-weekly-top .owl-nav .owl-next{
+        right: 87%;
+    }
+
+}
+
+/* Max Width 576px */
+
+@media only screen and (max-width:576px){
+
+    .single-comment{
+        align-items: center;
+    }
+
+    .blog-three-col{
+        grid-template-columns: 1fr;
+    }
+
+    .blog-list .single-blog img{
+        width: 100%;
+    }
+
+}
+
+/* Max Width 480px */
+
+@media only screen and (max-width:480px){
+
+    .video-main-img{
+        height: 300px;
+    }
+
+    .an-food-blogs .blog-image img{
+        min-height: 300px;
+    }
+
+    .overflow-heading {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        margin-bottom: 5px;
+        overflow-y: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .week-top-news .single-blog .meta-data{
+        gap: 16px;
+    }
+
+    /* Weekly Top */
+
+    .an-weekly-top .owl-nav .owl-prev {
+        left: 84%;
+    }
+
+    .right-to-left .an-weekly-top .owl-nav .owl-next{
+        right: 84%;
+    }
+    
+}
+
+/* Max Width 380px */
+
+@media only screen and (max-width:380px){
+   
+    .category-widget{
+        grid-template-columns: 1fr;
+    }
+
+    .single-comment{
+        grid-template-columns: 1fr;
+        grid-row-gap: 16px;
+    }
+
+    .blog-list-view{
+        padding: 16px;
+    }
+
+    .food-category-list{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .food-img{
+        min-height: 220px;
+    }
+
+    .an-food-blogs .blog-image img{
+        max-height: 250px;
+    }
+
+    /* Weekly Top */
+
+    .an-weekly-top .owl-nav .owl-prev {
+        left: 79%;
+    }
+
+    .right-to-left .an-weekly-top .owl-nav .owl-next{
+        right: 79%;
+    }
+
+    .an-video-gallery-2 .row{
+        display: grid !important;
+        grid-template-columns: 1fr;
+    }
+
+    .an-video-gallery-2 .row .col-6{
+        width: 100%;
+    }
+    
+    .otp-number input{
+        width:  38px;
+        height: 40px;
+        margin-right: 5px;
+    }
+
+    .single-activity{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .single-activity .post-img,
+    .single-activity .post-img img{
+        width: 100%;
+    }
+
+}
+
+/* Max Width 320px */
+
+@media only screen and (max-width:320px){
+    
+    .new-blogs .hoz-blog .single-blog{
+        grid-template-columns: 1fr;
+        border-radius: 5px;
+    }
+
+    .overflow-heading {
+        -webkit-line-clamp: 2;
+        font-size: 1.90rem;
+    }
+
+    .lang-switcher > .flag img{
+        width: 100px;
+    }
+
+    .otp-number input{
+        width: 33px;
+        height: 40px
+    }
+}
