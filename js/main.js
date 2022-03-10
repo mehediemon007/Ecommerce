@@ -20,6 +20,16 @@
         mouseDrag:false
     })
 
+    // Brands
+
+    $(".brands-slider").owlCarousel({
+        items:8,
+        margin:16,
+        slideBy:8,
+        nav:true,
+        // navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
+    })
+
 })(jQuery);
 
 (function(){
