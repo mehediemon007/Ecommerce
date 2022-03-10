@@ -311,6 +311,166 @@ label{
     text-overflow: ellipsis;
 }
 
+/* Banner */
+
+.ecom-banner .single-slide{
+    height: calc(100vh - 100px);
+}
+
+.ecom-banner .owl-dots{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+}
+
+.ecom-banner .owl-dots .owl-dot{
+    width: 35px;
+    height: 13px;
+    background-color: transparent;
+    border: 1px solid #EF4A23;
+    outline: none;
+    margin: 0 5px;
+}
+
+.ecom-banner .owl-dot.active{
+    background-color: #EF4A23;
+}
+
+.news-scroll{
+    background-color: var(--white-color);
+    border-radius: 30px;
+    margin: 24px 0;
+    padding: 8px 10px;
+}
+
+/* Feature Category */
+
+.categories{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 16px;
+}
+
+.single-category a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    padding: 10px 8px;
+    transition: var(--transition);
+}
+
+.single-category a h6{
+    margin-top: 14px;
+    transition: var(--transition);
+}
+
+.single-category a:hover h6{
+    color: #EF4A23;
+}
+
+.single-category a:hover{
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+
+/* Top Selling */
+
+.top-selling-links li{
+    position: relative;
+}
+
+.top-selling-links li:not(:last-of-type):after{
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 20px;
+    background-color: #89c545;
+    right: 0;
+    top: 2px;
+}
+
+.top-selling-links .nav-link{
+    font-size: 1rem;
+    color: var(--text-color);
+    padding: 0;
+    padding-bottom: 3px;
+    margin: 0 16px;
+}
+
+.top-selling-links .nav-link.active{
+    color: #f79637!important;
+    border-bottom: 2px solid #89c545;
+}
+
+.grid-five-col{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 16px;
+}
+
+.single-product{
+    background-color: var(--white-color);
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 24px;
+    text-align: center;
+}
+
+.single-product .product-content{
+    margin-top: 16px;
+    transition: var(--transition);
+}
+
+.single-product:hover .product-content *{
+    color: #EF4A23 !important;
+}
+
+.single-product .product-title{
+    font-size: 1rem;
+    margin-bottom:4px;
+}
+
+.single-product del{
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+/* New Arrivals */
+
+.new-products .owl-carousel .owl-nav .owl-prev,
+.new-products .owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  top: 45%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--white-color);
+  border: 1px solid #EF4A23;
+  border-radius: 50% !important;
+  outline: none;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.new-products-slider .owl-nav span{
+    font-size: 1.25rem;
+    color: var(--dark-color);
+}
+
+
+.new-products-slider .owl-nav .owl-next:hover,
+.new-products-slider .owl-nav .owl-prev:hover {
+  color: var(--text-color);
+}
+
+.owl-nav .owl-next {
+  right: -1.5%;
+}
+
+.owl-nav .owl-prev {
+  left: -1.5%;
+}
+
 /* Footer */
 
 .ecom-footer{
