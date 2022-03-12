@@ -473,6 +473,17 @@ label{
 
 /* Brands */
 
+.ecom-brands img{
+    max-width: 90%;
+}
+
+.phone-brands{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-column-gap: 24px;
+    padding: 10px 50px 50px;
+}
+
 .brands-slider{
     padding: 24px 16px 0;
     border-top: 1px solid #d3d3d3;
@@ -483,26 +494,18 @@ label{
 .brands-slider .owl-nav .owl-prev,
 .brands-slider .owl-nav .owl-next {
   position: absolute;
-  top: 45%;
+  top: 5%;
   width: 50px;
   height: 50px;
   background-color: var(--white-color);
-  border: 1px solid #EF4A23;
-  border-radius: 50% !important;
   outline: none;
   transition: 0.3s;
   z-index: 1;
 }
 
 .brands-slider .owl-nav span{
-    font-size: 1.25rem;
-    color: var(--dark-color);
-}
-
-
-.brands-slider .owl-nav .owl-next:hover,
-.brands-slider .owl-nav .owl-prev:hover {
-  color: var(--text-color);
+    font-size: 3.5rem;
+    color: var(--text-color-light);
 }
 
 .owl-nav .owl-next {

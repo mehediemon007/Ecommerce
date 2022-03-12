@@ -27,7 +27,6 @@
         margin:16,
         slideBy:8,
         nav:true,
-        // navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
     })
 
 })(jQuery);
