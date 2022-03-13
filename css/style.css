@@ -435,6 +435,68 @@ label{
     color: var(--white-color) !important;
 }
 
+.nav-cart{
+    position: absolute;
+    top: 45px;
+    right: 0;
+    min-width: 350px;
+    min-height: 60px;
+    background-color: var(--white-color);
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20%);
+    transition: var(--transition);
+    z-index: 11;
+}
+
+.nav-cart::after{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    right: 15px;
+    background-color: var(--white-color);
+    transform: rotate(135deg);
+}
+
+.cart:hover .nav-cart{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0%);
+}
+
+.single-cart-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+    border-bottom: 1px solid #d3d3d3;
+    text-align: left;
+}
+
+.cart-sub-total h6{
+    font-weight: var(--font-weight-bold);
+    margin-top: 16px;
+}
+
+.nav-checkout{
+    display: block;
+    width: 100%;
+    height: 30px;
+    color: var(--white-color) !important;
+    background-color: #EF4A23;
+    border-radius: 4px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+/* Main Navbar */
+
 .ecom-nav{
     position: relative;
     width: 100%;
