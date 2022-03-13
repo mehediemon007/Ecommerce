@@ -33,6 +33,12 @@
 
 (function(){
     
+    // Sticky Nav
+
+    const headerContainer = document.querySelector(".ecom-nav");
+    window.onscroll = ()=>{
+            this.scrollY > 120 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+    }
 
 })()
 

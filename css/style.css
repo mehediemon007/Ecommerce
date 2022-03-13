@@ -435,6 +435,21 @@ label{
     color: var(--white-color) !important;
 }
 
+.ecom-nav{
+    position: relative;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+    z-index: 10;
+    transition: var(--transition);
+}
+
+.ecom-nav.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .ecom-main-nav{
     display: flex;
     justify-content: space-between;
@@ -448,6 +463,7 @@ label{
     display: block;
     padding: 16px 0;
     font-weight: var(--font-weight-bold);
+    color: #222;
     transition: var(--transition);
 }
 
@@ -459,7 +475,7 @@ label{
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 150px;
+    min-width: 200px;
     background-color: var(--white-color);
     box-shadow: 0 5px 5px rgb(0 0 0 / 10%), 0 10px 15px rgb(0 0 0 / 10%), 0 -3px 0 0 #ef4a23;
     z-index: 10;
