@@ -6,7 +6,7 @@
         loop:true,
         nav:false,
         dots:true,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:3000,
         smartSpeed:500
     })
