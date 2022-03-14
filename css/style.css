@@ -535,7 +535,7 @@ label{
 }
 
 .ecom-main-nav li a:hover{
-    color: #EF4A23;
+    color: var(--secondary-color);
 }
 
 .sub-menu{
@@ -560,11 +560,16 @@ label{
 
 .sub-menu li a:hover{
     color: var(--white-color);
-    background-color: #EF4A23;
+    background-color: var(--secondary-color);
 }
 
 .sub-menu a span{
-    color: #ef4a234d;
+    color: #ff3b29cc;
+    transition: var(--transition);
+}
+
+.sub-menu li a:hover span{
+    color: var(--white-color);
 }
 
 .sub-menu .sub-menu{
@@ -598,16 +603,17 @@ label{
     width: 35px;
     height: 13px;
     background-color: transparent;
-    border: 1px solid #EF4A23;
+    border: 1px solid var(--secondary-color);
     outline: none;
     margin: 0 5px;
 }
 
 .ecom-banner .owl-dot.active{
-    background-color: #EF4A23;
+    background-color: var(--secondary-color);
 }
 
 .news-scroll{
+    color: var(--secondary-color);
     background-color: var(--white-color);
     border-radius: 30px;
     margin: 24px 0;
@@ -693,18 +699,36 @@ label{
     transition: var(--transition);
 }
 
-.single-product:hover .product-content *{
-    color: var(--secondary-color) !important;
-}
-
 .single-product .product-title{
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     font-size: 1rem;
+    font-weight: var(--font-weight-semi-bold);
     margin-bottom:10px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.product-content .price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.price .off-tag{
+    display: inline-block;
+    padding: 2px 5px;
+    font-size: .75rem;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+}
+
+.product-content b{
+    color: var(--secondary-color);
 }
 
 .single-product del{
@@ -808,6 +832,11 @@ label{
 
 .owl-nav .owl-prev {
   left: -1.5%;
+}
+
+.ad-image img{
+    width: 100%;
+    height: 100%;
 }
 
 /* Brands */
