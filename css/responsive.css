@@ -13,10 +13,28 @@
 
 }
 
+/* Max Width 1199px */
+@media only screen and (max-width:1199px){
+    .footer-list li{
+        width: 45%;
+    }
+}
+
 /* Max Width 991px */
 
 @media only screen and (max-width:991px){
 
+    .single-support{
+        max-width: 300px;
+    }
+
+}
+
+/* Max Width 480px */
+@media only screen and (max-width:480px){
+    .footer-botton{
+        flex-wrap: wrap;
+    }
 }
 
 /* Max Width 380px */

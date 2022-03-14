@@ -890,8 +890,13 @@ label{
     color: #EF4A23;
 }
 
-.footer-list li a{
+.footer-list li{
     display: inline-block;
+    width: 32%;
+}
+
+.footer-list li a{
+    display: block;
     margin-bottom: 16px;
     transition: var(--transition);
 }
