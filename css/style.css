@@ -681,11 +681,11 @@ label{
     border-bottom: 2px solid #89c545;
 }
 
-.grid-five-col{
+/* .grid-five-col{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 16px;
-}
+} */
 
 .single-product{
     position: relative;
@@ -714,7 +714,6 @@ label{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap-reverse;
     gap: 10px;
 }
 

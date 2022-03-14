@@ -8,6 +8,21 @@
         dots:true
     })
 
+    // Top Selling
+
+    $(".grid-five-col").owlCarousel({
+        items:5,
+        margin:14,
+        responsive:{
+            1201:{
+                mouseDrag:false
+            },
+            992:{
+                items:3.25,
+            }
+        }
+    })
+
     // New Arrivals
 
     $(".products-slider").owlCarousel({
