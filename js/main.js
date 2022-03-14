@@ -5,7 +5,10 @@
         items:1,
         loop:true,
         nav:false,
-        dots:true
+        dots:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        smartSpeed:500
     })
 
     // Top Selling
