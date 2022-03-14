@@ -10,7 +10,7 @@
 
     // New Arrivals
 
-    $(".new-products-slider").owlCarousel({
+    $(".products-slider").owlCarousel({
         items:5,
         loop:false,
         margin:16,

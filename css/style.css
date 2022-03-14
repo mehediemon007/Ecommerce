@@ -628,7 +628,8 @@ label{
 }
 
 .single-category a h6{
-    margin-top: 14px;
+    font-size: 1.05rem;
+    margin-top: 10px;
     transition: var(--transition);
 }
 
@@ -767,6 +768,10 @@ label{
 }
 
 /* New Arrivals */
+
+.products-slider .owl-stage-outer{
+    padding-top: 10px;
+}
 
 .new-products .owl-carousel .owl-nav .owl-prev,
 .new-products .owl-carousel .owl-nav .owl-next {
