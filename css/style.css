@@ -681,11 +681,11 @@ label{
     border-bottom: 2px solid #89c545;
 }
 
-/* .grid-five-col{
+.feature-products{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 16px;
-} */
+}
 
 .single-product{
     position: relative;
