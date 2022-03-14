@@ -19,16 +19,7 @@
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false
     })
-
-    // Brands
-
-    $(".brands-slider").owlCarousel({
-        items:8,
-        margin:16,
-        slideBy:8,
-        nav:true,
-    })
-
+    
 })(jQuery);
 
 (function(){

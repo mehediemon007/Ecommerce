@@ -5,9 +5,9 @@
 :root{
 
     /* Colors */
-    --primary-color:#3A3A3A;
-    --secondary-color:#F2BD57;
-    --primary-gradient-color: linear-gradient(to right , #598CE6  0% , #3BC9DD 100%);
+    --primary-color:#3C1874;
+    --secondary-color:#FF3A27;
+    --primary-gradient-color: linear-gradient(90deg, #FF3A27 0%, #FF3A27 0.01%, #FF6D27 100%);
     --text-color:#3e3e3e;
     --dark-color:#3A3A3A;
     --text-color-light:#9D9B9B;
@@ -90,11 +90,11 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 h3{
-    font-size: 1.75rem;
+    font-size: 1.6rem;
 }
 
 h4{
@@ -314,7 +314,8 @@ label{
 /* Header */
 
 .header-wpr{
-    background: rgba(35, 47, 62, 1);
+    padding: 5px 0;
+    background: var(--primary-color);
 }
 
 .toolbar-items{
@@ -326,7 +327,7 @@ label{
 .toolbar-item{
     display: flex;
     gap: 10px;
-    background: rgba(35, 56, 81, 1);
+    background: #184174;
     padding: 2px 10px;
     border-radius: 2px;
 }
@@ -337,8 +338,12 @@ label{
 
 .toolbar-item .toolbar-icon{
     font-size: 1.25rem;
-    color: rgba(232, 40, 77, 1);
+    color: var(--secondary-color);
     transform: var(--transition);
+    /* background-image: linear-gradient(0deg, #FF6D27 0%, #FF3A27 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
 }
 
 .toolbar-item .toolbar-content h6{
@@ -355,7 +360,7 @@ label{
 
 .pc-builder{
     color: var(--white-color);
-    background-color: #F85639;
+    background-color: var(--secondary-color);
     height: 45px;
 }
 
@@ -408,7 +413,7 @@ label{
     height: 16px;
     font-size: .70rem;
     color: var(--white-color);
-    background-color: #EF4A23;
+    background-color: var(--secondary-color);
     border-radius: 50%;
 }
 
@@ -614,7 +619,7 @@ label{
 .categories{
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-gap: 16px;
+    grid-gap: 16px 10px;
 }
 
 .single-category a{
@@ -666,7 +671,7 @@ label{
 }
 
 .top-selling-links .nav-link.active{
-    color: #f79637!important;
+    color: var(--secondary-color)!important;
     border-bottom: 2px solid #89c545;
 }
 
@@ -681,7 +686,6 @@ label{
     background-color: var(--white-color);
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 24px;
-    text-align: center;
 }
 
 .single-product .product-content{
@@ -690,7 +694,7 @@ label{
 }
 
 .single-product:hover .product-content *{
-    color: #EF4A23 !important;
+    color: var(--secondary-color) !important;
 }
 
 .single-product .product-title{
@@ -698,7 +702,7 @@ label{
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     font-size: 1rem;
-    margin-bottom:4px;
+    margin-bottom:10px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
@@ -723,7 +727,7 @@ label{
     display: block;
     text-align: center;
     color: var(--white-color);
-    background: #f36e21;
+    background: var(--secondary-color);
     font-size: 10px;
     line-height: 1;
     padding: 6px;
@@ -741,7 +745,7 @@ label{
     width: 6px;
     left: -6px;
     top: 0;
-    background: #f36e21;
+    background: var(--secondary-color);
 }
 
 .ribbon-wrap .ribbon-start span:after {
@@ -750,7 +754,7 @@ label{
     left: -8px;
     top: 0;
     border-radius: 8px 8px 0 0;
-    background: #f36e21;
+    background: vr(--secondary-color);
 }
 
 .ribbon-wrap .ribbon-start:after {
@@ -760,7 +764,7 @@ label{
     height: 0;
     border-left: 24px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 6px solid #f36e21;
+    border-top: 6px solid var(--secondary-color);
 }
 
 .ribbon-wrap .slider-ribbon:after {
@@ -780,7 +784,7 @@ label{
   width: 50px;
   height: 50px;
   background-color: var(--white-color);
-  border: 1px solid #EF4A23;
+  border: 1px solid var(--secondary-color);
   border-radius: 50% !important;
   outline: none;
   transition: 0.3s;
@@ -854,13 +858,13 @@ label{
 /* Footer */
 
 .ecom-footer{
-    background-color: rgba(35, 47, 62, 1);
+    background-color: var(--primary-color);
 }
 
 .ecom-footer p,
 .ecom-footer span,
 .ecom-footer a{
-    color: #666666;
+    color: #b3a9a9;
 }
 
 .footer-top{
@@ -892,7 +896,7 @@ label{
 }
 
 .support-details h4{
-    color: #EF4A23;
+    color: var(--secondary-color);
 }
 
 .footer-list li{
@@ -908,7 +912,7 @@ label{
 
 .footer-list li a:hover,
 .color-text:hover{
-    color: #EF4A23;
+    color: var(--secondary-color);
     text-decoration: underline;
 }
 
