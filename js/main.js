@@ -21,7 +21,7 @@
                 mouseDrag:false
             },
             992:{
-                items:3.25,
+                items:3.20,
             }
         }
     })
@@ -29,13 +29,20 @@
     // New Arrivals
 
     $(".products-slider").owlCarousel({
-        items:5,
         loop:false,
         margin:16,
         slideBy:5,
         nav:true,
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
-        mouseDrag:false
+        mouseDrag:false,
+        responsive:{
+            1201:{
+                items:5
+            },
+            992:{
+                items:3,
+            }
+        }
     })
     
 })(jQuery);
