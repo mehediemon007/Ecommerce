@@ -2,10 +2,10 @@
 @media only screen and (min-width:1400px){
 }
 
-/* Min Width 1200px */
-@media only screen and (min-width:1200px){
+/* Min Width 1201px */
+@media only screen and (min-width:1201px){
     .feature-products{
-        grid-template-columns: repeat(5,1fr);
+        grid-template-columns: repeat(5,1fr) !important;
     }
 }
 
@@ -13,14 +13,14 @@
 
 @media only screen and (min-width:992px){
 
+    .feature-products{
+        grid-template-columns: repeat(3,1fr);
+    }
+
 }
 
 /* Max Width 1199px */
 @media only screen and (max-width:1199px){
-
-    .feature-products{
-        grid-template-columns: repeat(3,1fr);
-    }
 
     .footer-list li{
         width: 45%;
