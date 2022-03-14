@@ -851,15 +851,11 @@ label{
 
 /* Brands */
 
-.ecom-brands img{
-    max-width: 90%;
-}
-
 .phone-brands{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-column-gap: 24px;
-    padding: 10px 50px 50px;
+    grid-gap: 24px;
+    padding: 0 50px;
 }
 
 .brands-slider{
