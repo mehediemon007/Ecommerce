@@ -708,7 +708,7 @@ label{
     background-color: var(--white-color);
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgb(0 0 0 / 5%);
-    padding: 20px 16px;
+    padding: 16px 8px;
 }
 
 .single-product .product-content{
