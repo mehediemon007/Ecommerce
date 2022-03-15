@@ -364,242 +364,319 @@
 
         <!-- Top Selling -->
 
-        <section class="ecom-top-sell mb-50 px-5">
-            <div class="sec-heading d-flex justify-content-between">
-                <h2 class="mb-4">TOP SELLINGS</h2>
-                <ul class="nav top-selling-links justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="phone-tab" data-bs-toggle="tab" href="#phone" role="tab" aria-controls="phone" aria-selected="false">Phone and Tablets</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="accessory-tab" data-bs-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">Accessories</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="macbook-tab" data-bs-toggle="tab" href="#macbook" role="tab" aria-controls="macbook" aria-selected="false">Macbook/iMac</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="camera-tab" data-bs-toggle="tab" href="#camera" role="tab" aria-controls="camera" aria-selected="false">Camera/Gimble</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="games-tab" data-bs-toggle="tab" href="#games" role="tab" aria-controls="games" aria-selected="false">Video Games</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="monitor-tab" data-bs-toggle="tab" href="#monitor" role="tab" aria-controls="monitor" aria-selected="false">Tv/Monitor</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- <div class="container">
-                <div class="sec-heading text-center">
+        <section class="ecom-top-sell mb-50">
+            <div class="container">
+                <div class="sec-heading d-flex justify-content-between">
                     <h2 class="mb-4">TOP SELLINGS</h2>
+                    <ul class="nav top-selling-links justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="phone-tab" data-bs-toggle="tab" href="#phone" role="tab" aria-controls="phone" aria-selected="false">Phone and Tablets</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="accessory-tab" data-bs-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">Accessories</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="macbook-tab" data-bs-toggle="tab" href="#macbook" role="tab" aria-controls="macbook" aria-selected="false">Macbook/iMac</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="camera-tab" data-bs-toggle="tab" href="#camera" role="tab" aria-controls="camera" aria-selected="false">Camera/Gimble</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="games-tab" data-bs-toggle="tab" href="#games" role="tab" aria-controls="games" aria-selected="false">Video Games</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="monitor-tab" data-bs-toggle="tab" href="#monitor" role="tab" aria-controls="monitor" aria-selected="false">Tv/Monitor</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="nav top-selling-links justify-content-center" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="phone-tab" data-bs-toggle="tab" href="#phone" role="tab" aria-controls="phone" aria-selected="false">Phone and Tablets</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="accessory-tab" data-bs-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">Accessories</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="macbook-tab" data-bs-toggle="tab" href="#macbook" role="tab" aria-controls="macbook" aria-selected="false">Macbook/iMac</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="camera-tab" data-bs-toggle="tab" href="#camera" role="tab" aria-controls="camera" aria-selected="false">Camera/Gimble</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="games-tab" data-bs-toggle="tab" href="#games" role="tab" aria-controls="games" aria-selected="false">Video Games</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="monitor-tab" data-bs-toggle="tab" href="#monitor" role="tab" aria-controls="monitor" aria-selected="false">Tv/Monitor</a>
-                    </li>
-                </ul>
-            </div> -->
-            <div class="top-sell-container">
-                <div class="tab-content top-sell-content mt-4" id="myTabContent">
-                    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
-                        <div class="all-products grid-five-col owl-carousel">
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                <!-- <div class="container">
+                    <div class="sec-heading text-center">
+                        <h2 class="mb-4">TOP SELLINGS</h2>
+                    </div>
+                    <ul class="nav top-selling-links justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="all-tab" data-bs-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="phone-tab" data-bs-toggle="tab" href="#phone" role="tab" aria-controls="phone" aria-selected="false">Phone and Tablets</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="accessory-tab" data-bs-toggle="tab" href="#accessories" role="tab" aria-controls="accessories" aria-selected="false">Accessories</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="macbook-tab" data-bs-toggle="tab" href="#macbook" role="tab" aria-controls="macbook" aria-selected="false">Macbook/iMac</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="camera-tab" data-bs-toggle="tab" href="#camera" role="tab" aria-controls="camera" aria-selected="false">Camera/Gimble</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="games-tab" data-bs-toggle="tab" href="#games" role="tab" aria-controls="games" aria-selected="false">Video Games</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="monitor-tab" data-bs-toggle="tab" href="#monitor" role="tab" aria-controls="monitor" aria-selected="false">Tv/Monitor</a>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="top-sell-container">
+                    <div class="tab-content top-sell-content mt-4" id="myTabContent">
+                        <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                            <div class="all-products grid-five-col owl-carousel">
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Airpods Pro With MagSafe Chips</p>
+                                            <p class="price"><b>Tk. 2290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Airpods Pro With MagSafe Chips</p>
-                                        <p class="price"><b>Tk. 2290</b></p>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Airpods Pro With MagSafe Chips</p>
+                                            <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Airpods Pro With MagSafe Chips</p>
+                                            <p class="price"><b>Tk. 2290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Airpods Pro With MagSafe Chips</p>
-                                        <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Airpods Pro With MagSafe Chips</p>
+                                            <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/airbuds.jpg" alt="Airbuds"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Airpods Pro With MagSafe Chips</p>
+                                            <p class="price"><b>Tk. 2290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Airpods Pro With MagSafe Chips</p>
-                                        <p class="price"><b>Tk. 2290</b></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/airbuds.jpg" alt="Airbuds"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Airpods Pro With MagSafe Chips</p>
-                                        <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/airbuds.jpg" alt="Airbuds"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Airpods Pro With MagSafe Chips</p>
-                                        <p class="price"><b>Tk. 2290</b></p>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="phone" role="tabpanel" aria-labelledby="phone-tab">
-                        <div class="phone-tab grid-five-col owl-carousel">
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/phone.jpg" alt="Phone"/>
+                        <div class="tab-pane fade" id="phone" role="tabpanel" aria-labelledby="phone-tab">
+                            <div class="phone-tab grid-five-col owl-carousel">
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/phone.jpg" alt="Phone"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Samsung Galaxy S22 Green</p>
+                                            <p class="price"><b>Tk. 12290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Samsung Galaxy S22 Green</p>
-                                        <p class="price"><b>Tk. 12290</b></p>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/phone.jpg" alt="Phone"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Samsung Galaxy S22 Green</p>
+                                            <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p> 
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/phone.jpg" alt="Phone"/>
+                                    <!-- <div class="position-absolute white-text text-xs p-1 ribbon-wrap">
+                                        <div class="ribbon-start slider-ribbon">
+                                            <span> Up to 8.70% OFF</span>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/phone.jpg" alt="Phone"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Samsung Galaxy S22 Green</p>
+                                            <p class="price"><b>Tk. 12290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Samsung Galaxy S22 Green</p>
-                                        <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p> 
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/phone.jpg" alt="Phone"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Samsung Galaxy S22 Green</p>
+                                            <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                                <!-- <div class="position-absolute white-text text-xs p-1 ribbon-wrap">
-                                    <div class="ribbon-start slider-ribbon">
-                                        <span> Up to 8.70% OFF</span>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/phone.jpg" alt="Phone"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Samsung Galaxy S22 Green</p>
+                                            <p class="price"><b>Tk. 12290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </div> -->
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/phone.jpg" alt="Phone"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Samsung Galaxy S22 Green</p>
-                                        <p class="price"><b>Tk. 12290</b></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/phone.jpg" alt="Phone"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Samsung Galaxy S22 Green</p>
-                                        <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/phone.jpg" alt="Phone"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Samsung Galaxy S22 Green</p>
-                                        <p class="price"><b>Tk. 12290</b></p>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="accessories" role="tabpanel" aria-labelledby="accessories-tab">
-                        <div class="accessories-tab grid-five-col owl-carousel">
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/accessories.jpg" alt="Accessory"/>
+                        <div class="tab-pane fade" id="accessories" role="tabpanel" aria-labelledby="accessories-tab">
+                            <div class="accessories-tab grid-five-col owl-carousel">
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                            <p class="price"><b>Tk. 290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                        <p class="price"><b>Tk. 290</b></p>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                            <p class="price"><b>Tk. 290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                            <p class="price"><b>Tk. 290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                        <p class="price"><b>Tk. 290</b></p>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                            <p class="price"><b>Tk. 290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="single-product">
+                                    <a href="#">
+                                        <div class="product-image">
+                                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                        </div>
+                                        <div class="product-content">
+                                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                            <p class="price"><b>Tk. 290</b></p>
+                                        </div>
+                                    </a>
+                                    <div class="product-icons">
+                                        <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                        <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                        <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                                     </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                        <p class="price"><b>Tk. 290</b></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/accessories.jpg" alt="Accessory"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                        <p class="price"><b>Tk. 290</b></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="single-product">
-                                <a href="#">
-                                    <div class="product-image">
-                                        <img src="images/products/accessories.jpg" alt="Accessory"/>
-                                    </div>
-                                    <div class="product-content">
-                                        <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                        <p class="price"><b>Tk. 290</b></p>
-                                    </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -609,7 +686,7 @@
 
         <!-- Ads Banner -->
 
-        <section class="ecom-ads-banner px-50">
+        <section class="ecom-ads-banner">
             <div class="row">
                 <div class="col-8">
                     <div class="ad-image h-100">
@@ -633,117 +710,167 @@
                 <div class="sec-heading text-center">
                     <h2 class="mb-4">FEATURE PRODUCTS</h2>
                 </div>
-            </div>
-            <div class="feature-products px-5">
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                <div class="feature-products">
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/accessories.jpg" alt="Accessory"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                <p class="price"><b>Tk. 290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                        <div class="product-content">
-                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                            <p class="price"><b>Tk. 290</b></p>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Samsung Galaxy S22 Green</p>
+                                <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/phone.jpg" alt="Phone"/>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/accessories.jpg" alt="Accessory"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                <p class="price"><b>Tk. 290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                        <div class="product-content">
-                            <p class="product-title">Samsung Galaxy S22 Green</p>
-                            <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Samsung Galaxy S22 Green</p>
+                                <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/accessories.jpg" alt="Accessory"/>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/itel-phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Itel Mate 10</p>
+                                <p class="price"><b>Tk. 12,290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                        <div class="product-content">
-                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                            <p class="price"><b>Tk. 290</b></p>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/accessories.jpg" alt="Accessory"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                <p class="price"><b>Tk. 290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/phone.jpg" alt="Phone"/>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Samsung Galaxy S22 Green</p>
+                                <p class="price"><b>Tk. 12290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                        <div class="product-content">
-                            <p class="product-title">Samsung Galaxy S22 Green</p>
-                            <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/accessories.jpg" alt="Accessory"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                <p class="price"><b>Tk. 290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/itel-phone.jpg" alt="Phone"/>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Samsung Galaxy S22 Green</p>
+                                <p class="price"><span><b>Tk. 22290</b><del>Tk. 23200</del></span><span class="off-tag">5.5% Off</span></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                        <div class="product-content">
-                            <p class="product-title">Itel Mate 10</p>
-                            <p class="price"><b>Tk. 12,290</b></p>
+                    </div>
+                    <div class="single-product">
+                        <a href="#">
+                            <div class="product-image">
+                                <img src="images/products/itel-phone.jpg" alt="Phone"/>
+                            </div>
+                            <div class="product-content">
+                                <p class="product-title">Itel Mate 10</p>
+                                <p class="price"><b>Tk. 12,290</b></p>
+                            </div>
+                        </a>
+                        <div class="product-icons">
+                            <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                            <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                         </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/accessories.jpg" alt="Accessory"/>
-                        </div>
-                        <div class="product-content">
-                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                            <p class="price"><b>Tk. 290</b></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/phone.jpg" alt="Phone"/>
-                        </div>
-                        <div class="product-content">
-                            <p class="product-title">Samsung Galaxy S22 Green</p>
-                            <p class="price"><b>Tk. 12290</b></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/accessories.jpg" alt="Accessory"/>
-                        </div>
-                        <div class="product-content">
-                            <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                            <p class="price"><b>Tk. 290</b></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/phone.jpg" alt="Phone"/>
-                        </div>
-                        <div class="product-content">
-                            <p class="product-title">Samsung Galaxy S22 Green</p>
-                            <p class="price"><span><b>Tk. 22290</b><del>Tk. 23200</del></span><span class="off-tag">5.5% Off</span></p>
-                        </div>
-                    </a>
-                </div>
-                <div class="single-product">
-                    <a href="#">
-                        <div class="product-image">
-                            <img src="images/products/itel-phone.jpg" alt="Phone"/>
-                        </div>
-                        <div class="product-content">
-                            <p class="product-title">Itel Mate 10</p>
-                            <p class="price"><b>Tk. 12,290</b></p>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -755,123 +882,173 @@
                 <div class="sec-heading text-center">
                     <h2 class="mb-4">NEW ARRIVALS</h2>
                 </div>
-            </div>
-            <div class="new-products px-5">
-                <div class="products-slider owl-carousel">
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/accessories.jpg" alt="Accessory"/>
+                <div class="new-products">
+                    <div class="products-slider owl-carousel">
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                    <p><b>Tk. 290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                             </div>
-                            <div class="product-content">
-                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                <p><b>Tk. 290</b></p>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Samsung Galaxy S22 Green</p>
+                                    <p><b>Tk. 12290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
                             </div>
-                        </a>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                    <p class="price"><span><b>Tk. 290</b><del>Tk. 350</del></span><span class="off-tag">8.7% Off</span></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Samsung Galaxy S22 Green</p>
+                                    <p><b>Tk. 12290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/itel-phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Itel Mate 10</p>
+                                    <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                    <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Samsung Galaxy S22 Green</p>
+                                    <p><b>Tk. 12290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/accessories.jpg" alt="Accessory"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Rubber Made Backcover For Xiaomi</p>
+                                    <p><b>Tk. 290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Samsung Galaxy S22 Green</p>
+                                    <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
+                        <div class="single-product">
+                            <a href="#">
+                                <div class="product-image">
+                                    <img src="images/products/itel-phone.jpg" alt="Phone"/>
+                                </div>
+                                <div class="product-content">
+                                    <p class="product-title">Itel Mate 10</p>
+                                    <p><b>Tk. 12,290</b></p>
+                                </div>
+                            </a>
+                            <div class="product-icons">
+                                <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="product-compare.html"><i class="fas fa-heart"></i></a>
+                                <a href="product-compare.html"><i class="fa-solid fa-arrow-right-arrow-left"></i></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Samsung Galaxy S22 Green</p>
-                                <p><b>Tk. 12290</b></p>
-                            </div>
-                        </a>
+                    <div class="owl-navigation">
+                        <span class="owl-nav-prev"><i class="fa-solid fa-arrow-left"></i></span>
+                        <span class="owl-nav-next"><i class="fa-solid fa-arrow-right"></i></span>
                     </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/accessories.jpg" alt="Accessory"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                <p class="price"><span><b>Tk. 290</b><del>Tk. 350</del></span><span class="off-tag">8.7% Off</span></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Samsung Galaxy S22 Green</p>
-                                <p><b>Tk. 12290</b></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/itel-phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Itel Mate 10</p>
-                                <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/accessories.jpg" alt="Accessory"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                <p class="price"><span><b>Tk. 2290</b><del>Tk. 3200</del></span><span class="off-tag">8.7% Off</span></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Samsung Galaxy S22 Green</p>
-                                <p><b>Tk. 12290</b></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/accessories.jpg" alt="Accessory"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Rubber Made Backcover For Xiaomi</p>
-                                <p><b>Tk. 290</b></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Samsung Galaxy S22 Green</p>
-                                <p class="price"><span><b>Tk. 12290</b><del>Tk. 13200</del></span><span class="off-tag">8.7% Off</span></p>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="single-product">
-                        <a href="#">
-                            <div class="product-image">
-                                <img src="images/products/itel-phone.jpg" alt="Phone"/>
-                            </div>
-                            <div class="product-content">
-                                <p class="product-title">Itel Mate 10</p>
-                                <p><b>Tk. 12,290</b></p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="owl-navigation">
-                    <span class="owl-nav-prev"><i class="fa-solid fa-arrow-left"></i></span>
-                    <span class="owl-nav-next"><i class="fa-solid fa-arrow-right"></i></span>
                 </div>
             </div>
         </section>
@@ -913,7 +1090,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="ecom-footer">
+    <!-- <footer class="ecom-footer">
         <div class="container">
             <div class="footer-top">
                 <div class="row">
@@ -975,8 +1152,148 @@
                 <p>Powered By: <a href="#" class="color-text">Akaarit</a></p>
             </div>
         </div>
+    </footer> -->
+    <footer class="ecom-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-services">
+                    <div class="single-service">
+                        <img src="images/delivery.svg" alt="delivery">
+                        <div class="service-content">
+                            <p class="service-name">Free Shipping</p>
+                            <p class="service-des">No one rejects, dislikes.</p>
+                        </div>
+                    </div>
+                    <div class="single-service justify-content-lg-center">
+                        <img src="images/delivery.svg" alt="delivery">
+                        <div class="service-content">
+                            <p class="service-name">24/7 Support.</p>
+                            <p class="service-des">Ready At your Service</p>
+                        </div>
+                    </div>
+                    <div class="single-service justify-content-lg-center">
+                        <img src="images/delivery.svg" alt="delivery">
+                        <div class="service-content">
+                            <p class="service-name">Online Payment.</p>
+                            <p class="service-des">All the Lorem Ipsum on.</p>
+                        </div>
+                    </div>
+                    <div class="single-service justify-content-lg-end">
+                        <img src="images/delivery.svg" alt="delivery">
+                        <div class="service-content">
+                            <p class="service-name">Fast Delivery.</p>
+                            <p class="service-des">All the Lorem Ipsum on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="ecom-footer-widget footer-about mb-4 mb-lg-0">
+                            <h6>ABOUT US</h6>
+                            <!-- <img src="images/logo-footer.png" alt="logo-footer"> -->
+                            <h3 class="color-text">TechCom</h3>
+                            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="ecom-footer-widget useful-links mb-4 mb-lg-0">
+                            <h6>USEFUL LINKS</h6>
+                            <ul class="footer-list">
+                                <li><a href="privacy.html" class="mt-0">Privacy Policy</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="terms.html">Terms & Condition</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="ecom-footer-widget store-location mb-4 mb-sm-0">
+                            <h6>OUR STORES</h6>
+                            <ul class="footer-list">
+                                <li><a href="#" class="mt-0">Basundhara City</a></li>
+                                <li><a href="#">Jamuna Future Park</a></li>
+                                <li><a href="#">Sylhet</a></li>
+                                <li><a href="#">Chittagong</a></li>
+                                <li><a href="#">Rajshahi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="ecom-footer-widget footer-subscribe">
+                            <h6>Available On:</h6>
+                            <div class="app-stores">
+                                <a href="https://www.apple.com/app-store/"><img src="images/logos/app-store.jpg" alt="apple app store"></a>
+                                <a href="https://play.google.com/store/apps"><img src="images/logos/play-store.jpg" alt="google play"></a>
+                            </div>
+                            <div class="newsletter">
+                                <h6 class="mt-3">Join our newsletter!</h6>
+                                <p>Will be used in accordance with our <a href="privacy.html" class="color-text">Privacy Policy</a></p>
+                                <form  class="news-letter">
+                                    <label for="news-letter" class="visually-hidden"></label>
+                                    <input type="email" placeholder="Your email address" id="news-letter">
+                                    <button type="submit" class="news-sign-up">SIGN UP</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="payment-system ecom-footer-widget">
+                            <h6>Payment System:</h6>
+                            <div class="payment-gateway mt-3">
+                                <img src="images/logos/payment-companies.png" alt="payment">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 mt-4 mt-sm-0">
+                        <div class="payment-system ecom-footer-widget">
+                            <h6>Shipping System:</h6>
+                            <div class="shipping mt-3">
+                                <img src="images/logos/shipping-companies.png" alt="shipping">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mt-4 mt-md-0">
+                        <div class="payment-system ecom-footer-widget">
+                            <h6>Our Social Links:</h6>
+                            <div class="footer-social-links mt-3">
+                                <a href="https://www.facebook.com/akaaritbd/" class="fb-link"><img src="images/logos/fb.png" alt="fb"></a>
+                                <a href="https://www.instagram.com/accounts/emailsignup/" class="fb-link"><img src="images/logos/insta.png" alt="insta"></a>
+                                <a href="https://twitter.com/?lang=en" class="fb-link"><img src="images/logos/twitter.png" alt="twitter"></a>
+                                <a href="https://business.pinterest.com/business-terms-of-service/" class="fb-link"><img src="images/logos/pinta.png" alt="pintarest"></a>
+                                <a href="https://www.linkedin.com/company/akaar-it-limited?trk=companies_directory" class="fb-link"><img src="images/logos/linked-in.png" alt="linked in"></a>
+                                <a href="https://www.youtube.com/channel/UC5_zUqknHg0Trch7iSnYfyQ" class="fb-link"><img src="images/logos/youtube.png" alt="youtube"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ecom-copyrights py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-md-center">
+                        <p class="copyright text-white">Techcom &copy; 2022, All Rights Reserved | POWERED BY <a href="https://www.akaarit.com/" class="color-text">Akaar-it ltd.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
-    
     <!-- Js files -->
     <script src="js/modernizr-3.5.0.min.js"></script>
 

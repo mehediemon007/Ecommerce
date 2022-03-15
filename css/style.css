@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 
 :root{
 
@@ -20,7 +21,7 @@
 
     /* Typography */
     --body-font: 'Lato', sans-serif;
-    --title-font: 'Lato', sans-serif;
+    --title-font: 'Ubuntu Mono', sans-serif;
     --font-weight-small:300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
@@ -90,7 +91,7 @@ h1{
 }
 
 h2{
-    font-size: 1.75rem;
+    font-size: 1.80rem;
 }
 
 h3{
@@ -705,7 +706,7 @@ label{
     background-color: var(--white-color);
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgb(0 0 0 / 5%);
-    padding: 24px;
+    padding: 20px 16px;
 }
 
 .single-product .product-content{
@@ -749,6 +750,43 @@ label{
 .single-product del{
     font-size: 12px;
     margin-left: 4px;
+}
+
+.product-icons{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 16px;
+}
+
+.product-icons a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    line-height: 36px;
+    margin-top: 8px;
+    opacity: 0;
+    transform: translateX(18px);
+    transition: .3s;
+}
+
+.filtered-products.list .product-icons a{
+    transform: translateX(-60px);
+}
+
+.product-icons a:hover{
+    color: var(--secondary-color);
+}
+
+.single-product:hover .product-icons a{
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .ribbon-wrap {
@@ -820,8 +858,8 @@ label{
 .new-products .owl-carousel .owl-nav .owl-next {
   position: absolute;
   top: 45%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: var(--white-color);
   border: 1px solid var(--secondary-color);
   border-radius: 50% !important;
@@ -897,7 +935,7 @@ label{
 
 /* Footer */
 
-.ecom-footer{
+/* .ecom-footer{
     background-color: var(--primary-color);
 }
 
@@ -976,9 +1014,146 @@ label{
     font-size: .75rem !important;
     padding: 16px 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 .color-text{
-    color: #EF4A23 !important;
+    color: var(--secondary-color) !important;
 }
 
+/* Woo Footer */
+
+.ecom-footer{
+    background-color: var(--primary-color);
+}
+
+.ecom-footer-2{
+    background-color: var(--primary-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.ecom-footer-2 .footer-menu a{
+    position: relative;
+    display: inline-block;
+    color: var(--white-color);
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.footer-menu a:not(:last-of-type)::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    height: 90%;
+    border: .5px solid rgba(128,128,128,.5);
+}
+
+.footer-services{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 40px 0;
+}
+
+.footer-services .single-service{
+    display: flex;
+    gap: 16px;
+}
+
+.service-content .service-name{
+    font-weight: var(--font-weight-bold);
+    color: var(--white-color);
+    margin-bottom: 12px;
+}
+
+.service-content .service-des{
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.ecom-footer-widget h6{
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+
+.main-footer{
+    padding: 80px 0;
+    border-top: 1px solid var(--text-color-light);
+    border-bottom: 1px solid var(--text-color-light);
+}
+
+.main-footer p,
+.main-footer span{
+    font-size: .88rem;
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color-light);
+}
+
+.footer-list li a{
+    display: block;
+    font-size: .88rem;
+    font-weight: var(--font-weight-medium);
+    color: var(--text-color-light);
+    margin-top: 16px;
+    transition: var(--transition);
+}
+
+.footer-list li a:hover{
+    color: var(--white-color);
+}
+
+.app-stores{
+    display: flex;
+    gap: 16px;
+}
+
+.news-letter{
+    position: relative;
+    margin: 24px 0;
+}
+
+.news-letter input{
+    width: 65%;
+    height: 40px;
+    font-size: .81rem;
+    color: var(--text-color-light);
+    background-color: transparent;
+    border-radius: 20px;
+    border: 0.5px solid #808080;
+    padding-left: 16px;
+
+}
+
+.news-letter input::placeholder{
+    font-size: .81rem;
+}
+
+.news-sign-up{
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    font-size: .81rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--white-color);
+    border-radius: 20px;
+    background: var(--primary-gradient-color);
+    margin-left: 16px;
+}
+
+.colored-text{
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.colored-text:hover{
+    color: var(--primary-color);
+}
+
+.footer-bottom{
+    padding: 40px 0;
+    border-bottom: 1px solid var(--text-color-light);
+}
+
+.footer-social-links a{
+    margin-right: 4px;
+}
