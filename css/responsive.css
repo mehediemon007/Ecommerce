@@ -1,5 +1,9 @@
 /* Min Width 1400px */
 @media only screen and (min-width:1400px){
+
+    .single-product{
+        padding: 20px 16px;
+    }
 }
 
 /* Min Width 1200px */
@@ -44,6 +48,10 @@
 
     .footer-list li{
         width: 45%;
+    }
+
+    .single-product{
+        padding: 20px 16px;
     }
 }
 
