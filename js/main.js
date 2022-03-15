@@ -44,6 +44,22 @@
             }
         }
     })
+
+    // Nav Search Focus
+
+    if($(".nav-search").length){
+
+        $(".nav-search input").on("focusin",function(){
+
+            $("body").addClass("overlay");
+        });
+    
+        $(".nav-search input").on("focusout",function(){
+    
+            $("body").removeClass("overlay");
+        })
+    }
+
     
 })(jQuery);
 

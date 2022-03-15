@@ -50,15 +50,28 @@
     box-sizing: border-box;
 }
 
-html,
+html{
+    scroll-behavior: smooth;
+}
+
 body{
+    position: relative;
     font-family: var(--body-font);
     background-color: var(--body-bg-color);
-    scroll-behavior: smooth;
-    vertical-align: baseline;
     overflow-x: hidden;
     direction: var(--direction);
     transition: all .3s, background-color 0s;
+}
+
+body.overlay::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    z-index: 1;
 }
 
 body.dark-theme{
@@ -316,6 +329,13 @@ label{
 
 /* Header */
 
+body.overlay .ecom-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 .header-wpr{
     padding: 5px 0;
     background: var(--primary-color);
@@ -389,7 +409,7 @@ label{
     height: 40px;
     background-color: rgba(225, 238, 250, 1);
     border-radius: 4px;
-    padding-left: 24px;
+    padding-left: 16px;
 }
 
 .nav-icons{
@@ -519,6 +539,10 @@ label{
     position: fixed;
     top: 0;
     left: 0;
+}
+
+body.overlay .ecom-nav.sticky{
+    position: relative;
 }
 
 .ecom-main-nav{
