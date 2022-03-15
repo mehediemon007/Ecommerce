@@ -82,7 +82,7 @@ img {
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--title-font);
-    font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-semi-bold);
     color: var(--heading-color);
     margin-bottom: 0;
     direction: var(--direction);
