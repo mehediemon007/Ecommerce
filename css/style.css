@@ -879,6 +879,12 @@ label{
   z-index: 1;
 }
 
+.new-products .owl-nav .owl-prev.disabled,
+.new-products .owl-nav .owl-next.disabled{
+    opacity: 0;
+    visibility: hidden;
+}
+
 .new-products-slider .owl-nav span{
     font-size: 1.25rem;
     color: var(--dark-color);

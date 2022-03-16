@@ -31,7 +31,7 @@
     $(".products-slider").owlCarousel({
         loop:false,
         margin:16,
-        slideBy:5,
+        slideBy:3,
         nav:true,
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false,
