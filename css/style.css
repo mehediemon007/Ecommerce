@@ -1239,6 +1239,17 @@ label{
     width: auto;
 }
 
+.product-review-content .comment-author .comment-content .title{
+    margin-bottom: 18px;
+}
+
+.product-review-content .comment-author .comment-content .rating-box i {
+    color: #f9ba48;
+    font-size: .80rem;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
 .product-review-tabs-content .product-description p {
     color: #999;
     font-size: 14px;
@@ -1251,19 +1262,18 @@ label{
     width: 100%;
 }
 
-.product-review-tabs-content .product-information table tbody tr th {
+.product-information table tbody tr th {
     border: none;
     border-right: 1px solid #e5e5e5;
-    color: #242424;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: .90rem;
+    font-weight: var(--font-weight-semi-bold);
     text-transform: uppercase;
     padding: 16px;
     width: 150px;
     line-height: 1.5;
 }
 
-.product-review-tabs-content .product-information table tbody tr td {
+.product-information table tbody tr td {
     padding: 16px;
     font-style: italic;
     color: #999;
@@ -1274,21 +1284,21 @@ label{
     line-height: 1.5;
 }
 
-.product-review-tabs-content .product-review-content {
+.product-review-content {
     margin-top: 48px;
 }
 
-.product-review-tabs-content .product-review-content .comment-author {
+.product-review-content .comment-author {
     position: relative;
 }
 
-.product-review-tabs-content .product-review-content .comment-author .comment-thumb {
+.product-review-content .comment-author .comment-thumb {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.product-review-tabs-content .product-review-content .comment-author .comment-content {
+.product-review-content .comment-author .comment-content {
     background-color: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 3px;
@@ -1298,11 +1308,11 @@ label{
     margin: 0 0 0 80px;
 }
 
-.product-review-tabs-content .product-review-content .comment-form-content {
+.product-review-content .comment-form-content {
     margin-top: 40px;
 }
 
-.product-review-tabs-content .product-review-content .comment-form-content .title {
+.product-review-content .comment-form-content .title {
     color: #999;
     display: block;
     font-size: 1.154em;
@@ -1311,7 +1321,7 @@ label{
     text-transform: uppercase;
 }
 
-.product-review-tabs-content .product-review-content .comment-form-content .desc {
+.product-review-content .comment-form-content .desc {
     color: #999;
     margin-bottom: 11px;
 }
@@ -1320,7 +1330,7 @@ label{
     margin-top: 18px;
 }
 
-.product-review-tabs-content .review-comment-form .form-group {
+.review-comment-form .form-group {
     margin-bottom: 18px;
 }
 
@@ -1331,12 +1341,12 @@ label{
     margin: 0 0 5px;
 }
 
-.product-review-tabs-content .review-comment-form .form-label {
+.review-comment-form .form-label {
     font-weight: 400;
     margin: 0 0 5px;
 }
 
-.product-review-tabs-content .review-comment-form .form-control {
+.review-comment-form .form-control {
     font-size: 14px;
     width: 100%;
     height: 50px;
@@ -1350,7 +1360,7 @@ label{
     outline: none;
 }
 
-.product-review-tabs-content .review-comment-form textarea.form-control {
+.review-comment-form textarea.form-control {
     padding-top: 10px;
     height: 125px;
     line-height: 1.8;
