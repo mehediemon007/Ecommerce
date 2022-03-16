@@ -546,14 +546,13 @@ label{
 
 .sub-menu{
     position: absolute;
+    display: none;
     top: 100%;
     left: 0;
     min-width: 200px;
     background-color: var(--white-color);
     box-shadow: 0 5px 5px rgb(0 0 0 / 10%), 0 10px 15px rgb(0 0 0 / 10%), 0 -3px 0 0 #ef4a23;
-    z-index: 10;
-    visibility: hidden;
-    opacity: 0;
+    z-index: 1;
     transition: var(--transition);
 }
 
@@ -588,8 +587,7 @@ label{
 }
 
 .has-children:hover > .sub-menu{
-    visibility: visible;
-    opacity: 1;
+    display: block;
 }
 
 /* Banner */
@@ -951,6 +949,30 @@ label{
 }
 
 /* Single Product */
+
+.ecom-breadcrumb .breadcrumb-link {
+    position: relative;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.ecom-breadcrumb .breadcrumb-link:not(:last-of-type)::after {
+    position: absolute;
+    content: "/";
+    top: 1px;
+    right: -4px;
+    font-size: .875rem;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.breadcrumb-link.active{
+    color: var(--secondary-color);
+}
+
+.product-info h3{
+    font-family: var(--body-font);
+}
 
 .product-info .rating-box-wrap {
     display: flex;
