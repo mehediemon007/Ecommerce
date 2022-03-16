@@ -1158,8 +1158,201 @@ label{
     transform: translateY(-50%);
 }
 
+/* Prodcut Review */
 
+.product-review-tabs-content{
+    margin-top: 50px;
+}
 
+.product-review-tabs-content .nav {
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 35px 0;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.product-review-tabs-content .nav li {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.product-review-tabs-content .nav li + li {
+    margin-left: 8px;
+}
+
+.product-review-tabs-content .nav li a {
+    border: 2px solid #e5e5e5;
+    color: #242424;
+    line-height: 30px;
+    padding: 13px 50px;
+    display: block;
+    font-size: 18px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.product-review-tabs-content .nav li a.active {
+    color: #fff;
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.product-review-tabs-content .nav li a.active:before {
+    left: -2px;
+    right: -2px;
+    width: auto;
+}
+
+.product-review-tabs-content .nav li a:before {
+    background: var(--secondary-color);
+    bottom: -33px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    width: 0;
+    z-index: 1;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.product-review-tabs-content .nav li a.active:before {
+    left: -2px;
+    right: -2px;
+    width: auto;
+}
+
+.product-review-tabs-content .product-description p {
+    color: #999;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+.product-review-tabs-content .product-information table {
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+.product-review-tabs-content .product-information table tbody tr th {
+    border: none;
+    border-right: 1px solid #e5e5e5;
+    color: #242424;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 16px;
+    width: 150px;
+    line-height: 1.5;
+}
+
+.product-review-tabs-content .product-information table tbody tr td {
+    padding: 16px;
+    font-style: italic;
+    color: #999;
+    border-top: 0;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #e5e5e5;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.product-review-tabs-content .product-review-content {
+    margin-top: 48px;
+}
+
+.product-review-tabs-content .product-review-content .comment-author {
+    position: relative;
+}
+
+.product-review-tabs-content .product-review-content .comment-author .comment-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-review-tabs-content .product-review-content .comment-author .comment-content {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    margin-left: 80px;
+    position: relative;
+    padding: 24px 24px 20px;
+    margin: 0 0 0 80px;
+}
+
+.product-review-tabs-content .product-review-content .comment-form-content {
+    margin-top: 40px;
+}
+
+.product-review-tabs-content .product-review-content .comment-form-content .title {
+    color: #999;
+    display: block;
+    font-size: 1.154em;
+    font-weight: 500;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.product-review-tabs-content .product-review-content .comment-form-content .desc {
+    color: #999;
+    margin-bottom: 11px;
+}
+
+.product-review-tabs-content .review-comment-form {
+    margin-top: 18px;
+}
+
+.product-review-tabs-content .review-comment-form .form-group {
+    margin-bottom: 18px;
+}
+
+.comment-form-content .form-label {
+    cursor: pointer;
+    color: #999;
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.product-review-tabs-content .review-comment-form .form-label {
+    font-weight: 400;
+    margin: 0 0 5px;
+}
+
+.product-review-tabs-content .review-comment-form .form-control {
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    line-height: 48px;
+    max-width: 100%;
+    padding: 0 15px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.product-review-tabs-content .review-comment-form textarea.form-control {
+    padding-top: 10px;
+    height: 125px;
+    line-height: 1.8;
+}
+
+.ecom-related-products .single-product{
+    box-shadow: none;
+}
 
 /* Footer */
 
