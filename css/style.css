@@ -1409,9 +1409,21 @@ label{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+.ecom-sidebar-widget .nav-toggle {
+    display: block;
+    font-size: 1.55rem;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
 .single-widget{
     padding: 24px 0 ;
     border-bottom: 1px solid var(--text-color-light);
+}
+
+.categori-menu .sub-menu{
+    display: block;
+    margin-left: 10px;
 }
 
 .single-widget .chk-input{
@@ -1448,6 +1460,123 @@ label{
 
 .categori-menu .sub-menu{
     margin-left: 10px;
+}
+
+.ecom-sec-wpr {
+    padding: 24px 24px 0;
+    background-color: var(--white-color);
+    border-radius: 5px;
+}
+
+.price-tools {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.price-filter-widget input {
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid var(--text-color-light);
+    border-radius: 5px;
+    padding-left: 16px;
+    outline: none;
+}
+
+.checkbox-widget {
+    display: flex;
+    gap: 24px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    appearance: none;
+    --webkit-appearance: none;
+    width: 18px;
+    height: 17px;
+    line-height: 17px;
+    padding: 0;
+    border: 1px solid var(--text-color-light);
+    border-radius: 4px;
+    cursor: pointer;
+    vertical-align: baseline;
+}
+
+.checkbox-widget input {
+    margin-right: 10px;
+}
+
+.product-ratings .fa-star {
+    font-size: .8rem;
+    color: #FEBD3F;
+}
+
+.sorting-menu {
+    display: inline-block;
+    background-color: var(--white-color);
+    border-radius: 5px;
+    border: 1px solid var(--text-color-light);
+    padding: 8px 0;
+}
+
+.product-toolbar .sorting-item {
+    display: inline-block;
+    font-size: .88rem;
+    padding: 0 14px;
+    border-right: 1px solid var(--text-color-light);
+}
+
+.view-widget .layout-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.view-widget .layout-icon.active {
+    color: var(--secondary-color);
+}
+
+.filtered-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    grid-gap: 16px;
+    transition: grid-template-column var(--transition);
+    margin-bottom: 24px;
+}
+
+.ecom-pagination-wpr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    background-color: var(--white-color);
+    padding: 22px 32px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%);
+}
+
+.pagination-item {
+    display: inline-block;
+    padding: 5px 16px;
+    border: 1px solid var(--text-color-light);
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: var(--transition);
+}
+
+.page-input input {
+    width: 70px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid var(--text-color-light);
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: center;
+    outline: none;
+}
+
+.keywords {
+    font-size: 14px;
+    color: var(--secondary-color);
 }
 
 

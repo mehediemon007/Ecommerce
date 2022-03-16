@@ -8,6 +8,11 @@
 
 /* Min Width 1200px */
 @media only screen and (min-width:1200px){
+
+    .filtered-products {
+        grid-template-columns: repeat(4,1fr);
+    }
+
     .feature-products{
         grid-template-columns: repeat(5,1fr);
     }
@@ -16,6 +21,10 @@
 /* Min Width 992px */
 
 @media only screen and (min-width:992px){
+
+    .ecom-sidebar-widget .nav-toggle{
+        display: none;
+    }
 
     /* Navbar Focus */
 
