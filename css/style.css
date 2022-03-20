@@ -769,7 +769,7 @@ label{
 }
 
 .product-icons a{
-    display: block;
+    display: block !important;
     width: 36px;
     height: 36px;
     font-size: 1rem;
