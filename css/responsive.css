@@ -4,6 +4,10 @@
     .single-product{
         padding: 20px 14px;
     }
+
+    .single-product del{
+        display: inline-block !important;
+    }
 }
 
 /* Min Width 1200px */
@@ -16,7 +20,12 @@
     .feature-products{
         grid-template-columns: repeat(5,1fr);
     }
+
+    .single-product del{
+        display: block;
+    }
 }
+
 
 /* Min Width 992px */
 

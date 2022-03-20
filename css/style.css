@@ -1417,7 +1417,7 @@ label{
 }
 
 .single-widget{
-    padding: 20px 0 ;
+    padding: 16px 0 ;
     border-bottom: 1px solid var(--text-color-light);
 }
 
@@ -1432,7 +1432,12 @@ label{
     gap: 8px;
     font-size: 14px;
     color: var(--text-color);
-    margin: 5px 0;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.single-widget .chk-input:last-of-type{
+    margin-bottom: 0;
 }
 
 .load-more__btn{
@@ -1523,9 +1528,9 @@ input[type="checkbox"] {
     position: relative;
     appearance: none;
     --webkit-appearance: none;
-    width: 18px;
-    height: 18px;
-    line-height: 18px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
     border: 1px solid var(--text-color-light);
     border-radius: 4px;
     cursor: pointer;
