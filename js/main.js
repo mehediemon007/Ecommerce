@@ -153,6 +153,32 @@
 
       });
 
+      // Layout Change
+
+    if($(".grid-icon").length){
+
+      $(".grid-icon").on("click",function(){
+          
+          $(".list-icon").removeClass("active");
+          $(this).addClass("active");
+          $(".filtered-products").removeClass("list");
+      })
+    }
+  
+    if($(".list-icon").length){
+
+        $(".list-icon").on("click",function(){
+
+            $(".grid-icon").removeClass("active");
+            $(this).addClass("active");
+            $(".filtered-products").addClass("list");
+        })
+    }
+
+    $(".disable").on("click",function(e){
+        e.preventDefault();
+    })
+
     
 })(jQuery);
 
@@ -163,6 +189,16 @@
     const headerContainer = document.querySelector(".ecom-nav");
     window.onscroll = ()=>{
             this.scrollY > 120 ? headerContainer.classList.add("sticky") : headerContainer.classList.remove("sticky");
+    }
+
+    //FAQ
+
+    const filter = document.getElementsByClassName('filter-label');
+
+    for(i=0;i<filter.length;i++){
+        filter[i].addEventListener('click',function(){
+            this.classList.toggle('active');
+        })
     }
 
 })()

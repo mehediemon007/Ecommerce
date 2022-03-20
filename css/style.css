@@ -1417,7 +1417,7 @@ label{
 }
 
 .single-widget{
-    padding: 24px 0 ;
+    padding: 20px 0 ;
     border-bottom: 1px solid var(--text-color-light);
 }
 
@@ -1435,18 +1435,13 @@ label{
     margin: 5px 0;
 }
 
-/* .single-widget .view-more{
-    font-size: 13px;
-    color: #2B87FF;
-} */
-
 .load-more__btn{
     font-size: 15px;
     color: #2B87FF;
     margin-left: -5px;
 }
 
-.categori-widget .categori-menu li a{
+/* .categori-widget .categori-menu li a{
     display: inline-block;
     font-size: 14px;
     padding: 4px 0;
@@ -1460,6 +1455,42 @@ label{
 
 .categori-menu .sub-menu{
     margin-left: 10px;
+} */
+
+.filter-label {
+    position: relative;
+    /* padding: 1rem 0.5rem; */
+    width: 100%;
+    cursor: pointer;
+    /* box-shadow: 0px 1px 2px rgba(58, 58, 68, 0.24),
+      0px 2px 4px rgba(90, 91, 106, 0.24); */
+    border-radius: 4px;
+}
+  
+.filter-label::before {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    position: absolute;
+    top: 5%;
+    right: 5px;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+  
+.filter-label.active::before {
+    content: "\f106";
+}
+
+.infinite-container {
+    height: 0;
+    overflow-y: auto;
+    transition: height .2s;
+}
+  
+.filter-label.active ~ .infinite-container {
+    height: auto;
+    padding-top: .5rem;
 }
 
 .ecom-sec-wpr {
@@ -1493,13 +1524,36 @@ input[type="checkbox"] {
     appearance: none;
     --webkit-appearance: none;
     width: 18px;
-    height: 17px;
-    line-height: 17px;
-    padding: 0;
+    height: 18px;
+    line-height: 18px;
     border: 1px solid var(--text-color-light);
     border-radius: 4px;
     cursor: pointer;
     vertical-align: baseline;
+}
+
+input[type="checkbox"]::after{
+    position: absolute;
+    content: "\f00c";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 12px;
+    color: var(--white-color);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    text-align: center;
+}
+
+input[type="checkbox"]:checked{
+    border-color: var(--secondary-color);
+    background-color: var(--secondary-color);
+}
+
+input[type="checkbox"]:checked::after{
+    display: block;
 }
 
 .checkbox-widget input {
@@ -1541,6 +1595,15 @@ input[type="checkbox"] {
     grid-gap: 16px;
     transition: grid-template-column var(--transition);
     margin-bottom: 24px;
+}
+
+.filtered-products.list{
+    grid-template-columns: 1fr !important;
+}
+
+.filtered-products.list .single-product a{
+    display: flex;
+    align-items: center;
 }
 
 .ecom-pagination-wpr {
