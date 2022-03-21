@@ -1510,18 +1510,24 @@ label{
 }
 
 .price-filter-widget input {
-    width: 80px;
-    height: 36px;
-    line-height: 36px;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
     border: 1px solid var(--text-color-light);
     border-radius: 5px;
-    padding-left: 16px;
+    text-align: center;
     outline: none;
 }
 
 .checkbox-widget {
     display: flex;
     gap: 24px;
+}
+
+.checkbox-widget fieldset{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 input[type="checkbox"] {
@@ -1559,10 +1565,6 @@ input[type="checkbox"]:checked{
 
 input[type="checkbox"]:checked::after{
     display: block;
-}
-
-.checkbox-widget input {
-    margin-right: 10px;
 }
 
 .product-ratings .fa-star {
