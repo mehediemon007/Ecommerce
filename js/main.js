@@ -153,7 +153,7 @@
 
       });
 
-      // Layout Change
+    // Layout Change
 
     if($(".grid-icon").length){
 
@@ -179,7 +179,14 @@
         e.preventDefault();
     })
 
-    
+    // Compare Head
+
+    $(".cmpr-table thead").on("click", function () {
+        var $this = $(this);
+        $this.find("i").toggleClass("fa-chevron-down fa-chevron-up");
+        $($this).next().toggleClass("hide");
+    });
+
 })(jQuery);
 
 (function(){
