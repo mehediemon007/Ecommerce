@@ -187,6 +187,13 @@
         $($this).next().toggleClass("hide");
     });
 
+    // Total Accordion
+
+    $(".cart-filter .cart-filter-label").on("click",function(){
+
+        $("i",this).toggleClass("fa-circle-plus fa-circle-minus")
+    })
+
 })(jQuery);
 
 (function(){
@@ -204,6 +211,16 @@
 
     for(i=0;i<filter.length;i++){
         filter[i].addEventListener('click',function(){
+            this.classList.toggle('active');
+        })
+    }
+
+    // Cart Filter
+
+    const totalFilter = document.getElementsByClassName('cart-filter-label');
+
+    for(i=0;i<totalFilter.length;i++){
+        totalFilter[i].addEventListener('click',function(){
             this.classList.toggle('active');
         })
     }
