@@ -1888,10 +1888,24 @@ input[type="checkbox"]:checked::after {
     overflow: hidden;
     -webkit-transition: height .3s ease;
     transition: var(--transition) ease;
+    padding: 0;
 }
 
 .cart-filter-label.active ~ .filter-content {
-    height: 100px;
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.filter-content input{
+    border: 1px solid var(--secondary-color);
+    padding: 4px 8px;
+}
+
+.filter-content fieldset button{
+    width: max-content;
+    padding: 5px 20px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
 }
 
 /* Footer */
