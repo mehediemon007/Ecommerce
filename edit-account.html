@@ -10,7 +10,7 @@
 
     <!-- Fav Icon -->
     <link rel="icon" type="image/png" href="images/logo/image-logo.png">
-    <title>Sign Up</title>
+    <title>Account Information</title>
 
     <!-- Inject:css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -237,80 +237,69 @@
 
     <!-- Main Content -->
 
-    <main class="ecom-main-content bg-white">
+    <main class="ecom-main-content bg-white pb-50">
         <div class="container">
 
             <!-- Breadcrumb -->
 
             <div class="ecom-breadcrumb py-3">
                 <a href="index.html" class="breadcrumb-link ps-0">Home</a>
-                <a class="breadcrumb-link active">Sign Up</a>
+                <a class="breadcrumb-link active">My Account</a>
             </div>
 
+            <!-- Account Edit Form -->
             <div class="row">
                 <div class="col-9">
-                    <div class="ecom-signup">
-                        <h4 class="border-bottom py-2">REGISTER ACCOUNT</h4>
-                        <p class="mt-3">If you already have an account with us, please login at the login page.</p>
-                        <form action="" class="signup-form">
+                    <div class="ecom-address">
+                        <form action="" class="account-edit-form">
                             <fieldset>
-                                <legend>Your Personal Details</legend>
+                                <legend class="border-0">Contact Information</legend>
                                 <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-firstname" class="col-sm-3">First Name</label>
-                                        <div class="col-sm-9">
-                                            <input type="text" placeholder="First Name" class="form-control" id="input-firstname">
+                                    <label for="input-fname">First Name</label>
+                                    <div>
+                                        <input type="text" placeholder="First Name" class="form-control" id="input-fname">
+                                    </div>
+                                </div>
+                                <div class="form-group required">
+                                    <label for="input-lname">Last Name</label>
+                                    <div>
+                                        <input type="text" placeholder="Last Name" class="form-control" id="input-lname">
+                                    </div>
+                                </div>
+                                <div class="form-group required">
+                                    <div><label for="email-change"><input type="checkbox" id="email-change">Change Email</label></div>
+                                    <div class="changing-field">
+                                        <label for="input-company">E-mail Address</label>
+                                        <div>
+                                            <input type="email" placeholder="Email Address" class="form-control" id="input-email">
+                                        </div>
+                                        <label for="input-company">Current Password</label>
+                                        <div>
+                                            <input type="password" placeholder="Current Password" class="form-control" id="input-pass">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-lastname" class="col-sm-3">Last Name</label>
-                                        <div class="col-sm-9">
-                                            <input type="text" placeholder="First Name" class="form-control" id="input-lastname">
+                                    <div><label for="pass-change"><input type="checkbox" id="pass-change">Change Password</label></div>
+                                    <div class="changing-field">
+                                        <label for="input-cpass">Current Password</label>
+                                        <div>
+                                            <input type="password" placeholder="Current Password" class="form-control" id="input-cpass">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-mail" class="col-sm-3">Email</label>
-                                        <div class="col-sm-9">
-                                            <input type="mail" placeholder="Email" class="form-control" id="input-mail">
+                                        <label for="input-npass">New Password</label>
+                                        <div>
+                                            <input type="password" placeholder="New Password" class="form-control" id="input-npass">
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-phone" class="col-sm-3">Telephone</label>
-                                        <div class="col-sm-9">
-                                            <input type="tel" placeholder="Telephone" class="form-control" id="input-phone">
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                            <fieldset>
-                                <legend>Your Password</legend>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-password" class="col-sm-3">Password</label>
-                                        <div class="col-sm-9">
-                                            <input type="password" placeholder="Password" class="form-control" id="input-password">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-conpass" class="col-sm-3">Confirm Password</label>
-                                        <div class="col-sm-9">
+                                        <label for="input-conpass">Confirm Password</label>
+                                        <div>
                                             <input type="password" placeholder="Confirm Password" class="form-control" id="input-conpass">
                                         </div>
                                     </div>
                                 </div>
+                                <div class="sign-btn">
+                                    <button>Save Address</button>
+                                </div>
                             </fieldset>
-                            <div class="sign-btn text-end mb-5">
-                                <label for="polity-agree"><input type="checkbox" id="polity-agree"><span>I Have Read And Agreed</span></label>
-                                <button class="signup ms-2" value="submit">Sing Up</button>
-                            </div>
                         </form>
                     </div>
                 </div>
@@ -318,8 +307,8 @@
                     <div class="ecom-acc-menu">
                         <h4><i class="fa-solid fa-user"></i> Account</h4>
                         <ul>
-                            <li><a href="#" class="active">Sign Up</a></li>
                             <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Sign Up</a></li>
                             <li><a href="#">My Account</a></li>
                         </ul>
                     </div>

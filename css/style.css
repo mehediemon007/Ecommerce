@@ -2014,6 +2014,11 @@ fieldset legend{
     margin: 2px 0;
 }
 
+.ecom-acc-menu li a.active{
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+}
+
 .info-box{
     width: 100%;
     border: 1px solid #d3d3d3;
