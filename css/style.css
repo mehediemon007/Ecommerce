@@ -1539,11 +1539,11 @@ label {
     gap: 24px;
 }
 
-.checkbox-widget fieldset {
+/* .checkbox-widget fieldset {
     display: flex;
     align-items: center;
     gap: 10px;
-}
+} */
 
 input[type="checkbox"] {
     position: relative;
@@ -1555,7 +1555,8 @@ input[type="checkbox"] {
     border: 1px solid var(--text-color-light);
     border-radius: 4px;
     cursor: pointer;
-    vertical-align: baseline;
+    vertical-align: text-bottom;
+    margin: 0 4px;
 }
 
 input[type="checkbox"]::after {
@@ -1935,6 +1936,59 @@ input[type="checkbox"]:checked::after {
     color: var(--white-color);
     background-color: var(--primary-color);
     margin-top: 16px;
+}
+
+/* Sign In & Sign Up */
+
+fieldset legend{
+    font-size: 1.15rem;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 8px 0;
+    margin-bottom: 24px;
+}
+
+.form-group .row{
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.form-group label{
+    font-size: .80rem;
+    text-align: right;
+}
+
+.form-group.required label::before{
+    content: "*";
+    font-weight: var(--font-weight-bold);
+    color: var(--secondary-color);
+    margin-right: 4px;
+}
+
+.sign-up-btn button{
+    width: 100px;
+    height: 40px;
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    padding: 0 20px;
+    border-radius: 3px;
+}
+
+/* Account */
+
+.ecom-acc-menu{
+    border: 1px solid #d3d3d3;
+    padding: 16px;
+    box-shadow: 0 0 4px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+}
+
+.ecom-acc-menu ul{
+    margin:8px 0 8px 24px;
+}
+
+.ecom-acc-menu li a{
+    display: inline-block;
+    margin: 2px 0;
 }
 
 /* Footer */
