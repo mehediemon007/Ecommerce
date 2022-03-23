@@ -1964,6 +1964,11 @@ fieldset legend{
     margin-right: 4px;
 }
 
+.form-group input.form-control::placeholder{
+    font-size: .90rem;
+    color: var(--secondary-color);
+}
+
 .sign-btn button{
     width: max-content;
     height: 40px;
@@ -2053,15 +2058,30 @@ fieldset legend{
     color: var(--secondary-color);
 }
 
-.address-form input{
+.address-form input,
+.account-edit-form input:not([type="checkbox"]){
     margin: 8px 0 16px;
 }
 
-.address-form legend{
+.address-form legend,
+.account-edit-form legend{
     font-size: 1.25rem;
     border-bottom: none;
     margin-bottom: 16px;
 }
+
+.account-edit-form .changing-field{
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    transition: var(--transition) ease;
+}
+
+.account-edit-form input[type="checkbox"]:checked ~ .changing-field{
+    height: auto;
+    padding: 8px 0;
+}
+
 
 /* Footer */
 
