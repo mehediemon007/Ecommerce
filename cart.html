@@ -334,7 +334,7 @@
             <div class="ecom-cart-total py-5">
                 <div class="row">
                     <div class="col-6">
-                        <h5>WHAT WOULD YOU LIKE TO DO NEXT?</h5>
+                        <h5 class="mb-3">WHAT WOULD YOU LIKE TO DO NEXT?</h5>
                         <div class="ecom-total-options">
                             <div class="cart-filter">
                                 <div class="cart-filter-label"><h6><i class="fa-solid fa-circle-plus"></i> Use Coupon Code</h6></div>
@@ -348,7 +348,51 @@
                                     </fieldset>
                                 </div>
                             </div>
+                            <div class="cart-filter">
+                                <div class="cart-filter-label"><h6><i class="fa-solid fa-circle-plus"></i> Estimate Shipping</h6></div>
+                                <div class="filter-content">
+                                    <p>Enter your destination to get a shipping estimate.</p>
+                                    <fieldset class="mb-2">
+                                        <label for="division">Division<sup>*</sup></label>
+                                        <input type="text" placeholder="Division" id="division">
+                                    </fieldset>
+                                    <fieldset class="mb-2">
+                                        <label for="district">District<sup>*</sup></label>
+                                        <input type="text" placeholder="district">
+                                    </fieldset>
+                                    <fieldset class="mb-2">
+                                        <label for="postcode">Post Code<sup>*</sup></label>
+                                        <input type="text" placeholder="postcode">
+                                    </fieldset>
+                                    <button class="mt-2">Shipped</button>
+                                </div>
+                            </div>
+                            <div class="cart-filter">
+                                <div class="cart-filter-label"><h6><i class="fa-solid fa-circle-plus"></i> Use Gift Certificate</h6></div>
+                                <div class="filter-content">
+                                    <fieldset>
+                                        <label for="">Enter your gift certificate code here</label>
+                                        <div class="mt-2">
+                                            <input type="text" placeholder="Enter Your Coupon Here">
+                                            <button>Apply Gift Certificate</button>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col-6">
+                        <h5 class="mb-3">Cart Total</h5>
+                        <div class="single-calc">
+                            <h6>Sub Total:</h6>
+                            <p>20,000 &#2547;</p>
+                        </div>
+                        <div class="single-calc">
+                            <h6>Total:</h6>
+                            <p>20,000 &#2547;</p>
+                        </div>
+                        <button class="total-btn">Continue Shopping</button>
+                        <button class="total-btn">Checkout <i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
                 </div>
             </div>

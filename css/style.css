@@ -1872,7 +1872,7 @@ input[type="checkbox"]:checked::after {
 }
 
 .cart-filter-label{
-    margin: 24px 0 16px;
+    margin-bottom: 16px;
     cursor: pointer;
 }
 
@@ -1901,11 +1901,41 @@ input[type="checkbox"]:checked::after {
     padding: 4px 8px;
 }
 
-.filter-content fieldset button{
+.filter-content button{
     width: max-content;
     padding: 5px 20px;
     color: var(--white-color);
     background-color: var(--primary-color);
+}
+
+.filter-content fieldset label{
+    display: block;
+    font-size: .90rem;
+    margin-bottom: 4px;
+}
+
+.single-calc{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 6px 10px;
+    box-shadow: 1px 2px  4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.single-calc p{
+    font-size: .95rem;
+    font-weight: var(--font-weight-medium);
+}
+
+.total-btn{
+    display: inline-block;
+    width: 45%;
+    height: 40px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    margin-top: 16px;
 }
 
 /* Footer */
