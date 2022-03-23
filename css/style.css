@@ -1965,7 +1965,7 @@ fieldset legend{
 }
 
 .sign-btn button{
-    width: 100px;
+    width: max-content;
     height: 40px;
     color: var(--white-color);
     background-color: var(--secondary-color);
@@ -2046,6 +2046,16 @@ fieldset legend{
 
 .box-action span{
     color: var(--secondary-color);
+}
+
+.address-form input{
+    margin: 8px 0 16px;
+}
+
+.address-form legend{
+    font-size: 1.25rem;
+    border-bottom: none;
+    margin-bottom: 16px;
 }
 
 /* Footer */
