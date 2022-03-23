@@ -1964,13 +1964,36 @@ fieldset legend{
     margin-right: 4px;
 }
 
-.sign-up-btn button{
+.sign-btn button{
     width: 100px;
     height: 40px;
     color: var(--white-color);
     background-color: var(--secondary-color);
     padding: 0 20px;
     border-radius: 3px;
+}
+
+.ecom-signin{
+    min-height: 500px;
+}
+
+.signin-step{
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.signin-step h5{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d3d3d3 ;
+}
+
+.signin-step input{
+    margin: 4px 0 8px;
+}
+
+.signin-step .sign-btn{
+    margin-top: 16px;
 }
 
 /* Account */

@@ -10,7 +10,7 @@
 
     <!-- Fav Icon -->
     <link rel="icon" type="image/png" href="images/logo/image-logo.png">
-    <title>Sign Up</title>
+    <title>Sign In</title>
 
     <!-- Inject:css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -244,74 +244,49 @@
 
             <div class="ecom-breadcrumb py-3">
                 <a href="index.html" class="breadcrumb-link ps-0">Home</a>
-                <a class="breadcrumb-link active">Sign Up</a>
+                <a class="breadcrumb-link active">Sign In</a>
             </div>
+
+            <!-- Sign In -->
 
             <div class="row">
                 <div class="col-9">
-                    <div class="ecom-signup">
-                        <h4 class="border-bottom py-2">REGISTER ACCOUNT</h4>
-                        <p class="mt-3">If you already have an account with us, please login at the login page.</p>
-                        <form action="" class="signup-form">
-                            <fieldset>
-                                <legend>Your Personal Details</legend>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-firstname" class="col-sm-3">First Name</label>
-                                        <div class="col-sm-9">
-                                            <input type="text" placeholder="First Name" class="form-control" id="input-firstname">
-                                        </div>
+                    <div class="ecom-signin">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="signin-step">
+                                    <h5>NEW CUSTOMER</h5>
+                                    <p class="my-2"><b>Register Account</b></p>
+                                    <p>By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.</p>
+                                    <div class="sign-btn">
+                                        <button>Continue</button>
                                     </div>
                                 </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-lastname" class="col-sm-3">Last Name</label>
-                                        <div class="col-sm-9">
-                                            <input type="text" placeholder="First Name" class="form-control" id="input-lastname">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-mail" class="col-sm-3">Email</label>
-                                        <div class="col-sm-9">
-                                            <input type="mail" placeholder="Email" class="form-control" id="input-mail">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-phone" class="col-sm-3">Telephone</label>
-                                        <div class="col-sm-9">
-                                            <input type="tel" placeholder="Telephone" class="form-control" id="input-phone">
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                            <fieldset>
-                                <legend>Your Password</legend>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-password" class="col-sm-3">Password</label>
-                                        <div class="col-sm-9">
-                                            <input type="password" placeholder="Password" class="form-control" id="input-password">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <div class="row">
-                                        <label for="input-conpass" class="col-sm-3">Confirm Password</label>
-                                        <div class="col-sm-9">
-                                            <input type="password" placeholder="Confirm Password" class="form-control" id="input-conpass">
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                            <div class="sign-btn text-end mb-5">
-                                <label for="polity-agree"><input type="checkbox" id="polity-agree"><span>I Have Read And Agreed</span></label>
-                                <button class="signup ms-2" value="submit">Sing Up</button>
                             </div>
-                        </form>
+                            <div class="col-md-6">
+                                <div class="signin-step">
+                                    <h5>NEW CUSTOMER</h5>
+                                    <p class="my-2"><b>I am a returning customer</b></p>
+                                    <form action="" class="signin-form">
+                                        <div class="form-group">
+                                            <label for="input-email">E-Mail Address</label>
+                                            <div>
+                                                <input type="email" placeholder="E-Mail Address" class="form-control" id="input-email">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="input-pass">Password</label>
+                                            <div>
+                                                <input type="email" placeholder="Password" class="form-control" id="input-pass">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="sign-btn">
+                                        <button>Sign In</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-3">
