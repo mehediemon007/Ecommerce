@@ -483,6 +483,12 @@ label {
     transform: translateY(0%);
 }
 
+.nav-cart-heading{
+    border-bottom: 1px solid #d3d3d3;
+    padding: 5px 0;
+    text-align: right;
+}
+
 .single-cart-product {
     display: flex;
     justify-content: space-between;
