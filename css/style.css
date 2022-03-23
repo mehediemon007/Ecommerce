@@ -2014,6 +2014,40 @@ fieldset legend{
     margin: 2px 0;
 }
 
+.info-box{
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    margin-top: 16px;
+}
+
+.box-title,
+.box-content,
+.box-action{
+    padding: 8px 16px;
+    background-color: #f5f5f5;
+    
+}
+
+.box-title{
+    border-bottom: 1px solid #d3d3d3;
+    border-radius: 4px 4px 0 0;
+}
+
+.box-action{
+    border-top: 1px solid #d3d3d3;
+    border-radius: 0 0 4px 4px;
+}
+
+.box-content{
+    background-color: var(--white-color);
+    min-height: 150px;
+}
+
+.box-action span{
+    color: var(--secondary-color);
+}
+
 /* Footer */
 
 
