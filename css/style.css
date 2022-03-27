@@ -1691,18 +1691,18 @@ input[type="checkbox"]:checked::after {
     line-height: 20px;
 }
 
-.cmpr-field {
+.search-field {
     position: relative;
 }
 
-.cmpr-table tr td .fa-magnifying-glass {
+.search-field .fa-magnifying-glass {
     position: absolute;
     right: 10px;
     top: 12px;
 }
 
 .cmpr-field select,
-.cmpr-field input {
+.search-field input {
     width: 100%;
     border: none;
     padding: 8px 20px 8px 10px;
@@ -1711,11 +1711,11 @@ input[type="checkbox"]:checked::after {
     text-overflow: ellipsis;
 }
 
-.cmpr-field input::placeholder{
+.search-field input::placeholder{
     font-size: .90rem;
 }
 
-.cmpr-table .cmpr-field input {
+.search-field input {
     box-shadow: none;
     border: 1px solid #ddd;
 }
