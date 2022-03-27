@@ -2269,10 +2269,10 @@ fieldset legend{
     font-weight: var(--font-weight-semi-bold);
 }
 
-.comp-details .comp-del{
+.comp-del{
     width: 30px;
     height: 30px;
-    font-size: .90rem;
+    font-size: .75rem;
     color: var(--white-color);
     background-color: var(--primary-color);
     border: none;
