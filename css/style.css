@@ -2191,6 +2191,39 @@ fieldset legend{
     line-height: 30px;
 }
 
+.build-products .single-product{
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    align-items: center;
+    justify-items: space-between;
+    box-shadow: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+.single-product .product-des{
+    margin-top: 16px;
+}
+
+.product-add .add-btn{
+    width: max-content;
+    height: 40px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 0 32px;
+    border-radius: 4px;
+    margin-top: 8px;
+    line-height: 40px;
+}
+
+.product-des .product-features li{
+    font-size: .85rem;
+    list-style: disc;
+    margin-left: 24px;
+}
+
 
 /* Footer */
 
