@@ -1609,6 +1609,17 @@ input[type="checkbox"]:checked::after {
     border-right: 1px solid var(--text-color-light);
 }
 
+.sorting-widget,
+.view-widget{
+    display: flex;
+    align-items: center;
+}
+
+.product-toolbar .sorting-widget,
+.product-toolbar .view-widget{
+    gap: 8px;
+}
+
 .view-widget .layout-icon {
     font-size: 28px;
     cursor: pointer;
