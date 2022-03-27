@@ -273,8 +273,11 @@
 
 function takeScreenshot(){
     
-    html2canvas(document.getElementById("#pc-building")).then(canvas => {
-        document.body.appendChild(canvas)
+    html2canvas(document.querySelector('#pc-building'), {
+        onrendered: function(canvas) {
+            // document.body.appendChild(canvas);
+          return Canvas2Image.saveAsPNG(canvas,"build-guide");
+        }
     });
 }
 
