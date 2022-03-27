@@ -23,6 +23,8 @@
     <!-- Template Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
+    <script src="js/html2canvas.min.js"></script>
+
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -257,7 +259,7 @@
 
             <!-- Pc Building -->
 
-            <div class="ecom-pc-building">
+            <div class="ecom-pc-building" id="pc-building">
                 <div class="build-sec-header">
                     <div class="row justify-content-between mb-2">
                         <div class="col-2">
@@ -268,7 +270,7 @@
                         <div class="col-8">
                             <div class="build-toolbar text-end">
                                 <a href="#" class="build-btn"><i class="fa-solid fa-floppy-disk"></i> Save Build</a>
-                                <a href="#" class="build-btn"><i class="fa-solid fa-image"></i> Screenshot</a>
+                                <a href="javascript:void(0)" class="build-btn" onclick="takeScreenshot()"><i class="fa-solid fa-image"></i> Screenshot</a>
                                 <a href="#" class="build-btn"><i class="fa-solid fa-print"></i> Print</a>
                                 <a href="#" class="build-btn"><i class="fa-solid fa-cart-arrow-down"></i> Add To Cart</a>
                                 <a href="#" class="build-btn"><i class="fa-solid fa-arrows-rotate"></i> Clear</a>

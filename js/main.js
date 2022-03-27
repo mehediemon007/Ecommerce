@@ -271,3 +271,10 @@
 
 })()
 
+function takeScreenshot(){
+    
+    html2canvas(document.getElementById("#pc-building")).then(canvas => {
+        document.body.appendChild(canvas)
+    });
+}
+
