@@ -2088,6 +2088,109 @@ fieldset legend{
     padding: 8px 0;
 }
 
+/* Pc Building */
+
+.ecom-pc-building{
+    width: 90%;
+    background-color: var(--body-bg-color);
+    padding: 16px;
+    border: 1px solid #d3d3d3;
+    margin: 0 auto;
+}
+
+.ecom-pc-building .build-btn{
+    display: inline-block;
+    width: max-content;
+    height: 30px;
+    font-size: .75rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--white-color);
+    padding: 0 8px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    line-height: 30px;
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+
+.build-btn:hover{
+    background-color: var(--secondary-color);
+}
+
+.build-total{
+    display: inline-block;
+    width: max-content;
+    height: 35px;
+    font-size: 1.15rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--white-color);
+    padding: 0 14px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+.build-heading{
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 3px 8px;
+    margin: 8px 0;
+}
+
+.single-component,
+.component-name,
+.comp-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color);
+    padding: 8px 16px;
+    border: 1px solid #d3d3d3;
+    margin-bottom: 10px;
+}
+
+.component-name{
+    padding: 0;
+    border: none;
+    gap: 12px;
+    margin-bottom: 0;
+}
+
+.component-name p{
+    font-size: 1rem;
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.comp-img{
+    width: 50px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.comp-details{
+    width: 70%;
+    justify-content: space-between;
+    border: none;
+    margin-bottom: 0;
+}
+
+.comp-price{
+    font-size: 1rem;
+    font-weight: var(--font-weight-semi-bold);
+}
+
+.comp-details .comp-del{
+    width: 30px;
+    height: 30px;
+    font-size: .90rem;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+    line-height: 30px;
+}
+
 
 /* Footer */
 
