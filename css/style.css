@@ -1684,13 +1684,13 @@ input[type="checkbox"]:checked::after {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 10px 0 16px;
+    margin: 10px 0 20px;
 }
 
 .price-input .field{
-    width: 50px;
-    height: 20px;
-    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    font-size: 1rem;
     align-items: center;
 }
 .field input{
