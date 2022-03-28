@@ -308,6 +308,10 @@
     .cart .meta-data span{
         display: none;
     }
+
+    .product-table tr td, .product-table th{
+        padding: 10px 5px;
+    }
 }
 
 /* Max Width 480px */
@@ -346,6 +350,24 @@
     .feature-products,
     .filtered-products{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .product-table .product-img{
+        width: 70px;
+    }
+
+    .product-table .product-name{
+        max-width: 150px;
+    }
+
+    .product-quantity {
+        width: 90px;
+        height: 35px;
+        font-size: .85rem;
+    }
+
+    .product-quantity .quantity-input{
+        font-size: .85rem;
     }
 
     .footer-services{
