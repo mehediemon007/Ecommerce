@@ -335,7 +335,11 @@
 
 /* Max Width 380px */
 
-@media only screen and (max-width:380px){    
+@media only screen and (max-width:380px){ 
+    
+    .nav-cart{
+        min-width: 320px;
+    }
 
     .phone-brands{
         grid-template-columns: repeat(5,1fr);
@@ -346,6 +350,10 @@
 /* Max Width 320px */
 
 @media only screen and (max-width:320px){
+
+    .nav-cart{
+        min-width: 300px;
+    }
     
     .feature-products,
     .filtered-products{

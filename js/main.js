@@ -215,7 +215,7 @@
     if($(window).width() <= 1199){
        
         $(".ecom-main-nav .has-children a").on("click",function(e){
-
+            
             e.preventDefault();
             $(this).next(".sub-menu").slideToggle("300");
             $(this).toggleClass("active")
