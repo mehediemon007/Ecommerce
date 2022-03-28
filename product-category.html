@@ -51,12 +51,6 @@
                         </div>
                         <div class="col-8">
                             <div class="toolbar-items">
-                                <!-- <a href="#" class="toolbar-item">
-                                    <span class="toolbar-icon"></span>
-                                    <span class="toolbar-content">
-                                        <h6>Graphic Cards</h6>
-                                    </span>
-                                </a> -->
                                 <a href="#" class="toolbar-item">
                                     <span class="toolbar-icon"><i class="fa-solid fa-tag"></i></span>
                                     <span class="toolbar-content">
@@ -87,12 +81,19 @@
                 </div>
                 <div class="header-middle">
                     <div class="row align-items-center">
-                        <div class="col-2">
-                            <div class="ecom-logo">
-                                <a href="index.html"><h2 class="text-white">TechCom</h2></a>
+                        <div class="col-lg-2 col-4">
+                            <div class="row align-items-center">
+                                <div class="col-3 d-xl-none">
+                                    <span class="nav-toggle"><i class="fas fa-bars"></i></span>
+                                </div>
+                                <div class="col-9 ps-0">
+                                    <div class="ecom-logo d-inline-block">
+                                        <a href="index.html"><h2 class="text-white">TechCom</h2></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-5 col-xl-6 d-none d-lg-block">
                             <form class="nav-search">
                                 <fieldset class="nav-search-input">
                                     <label for="nav-search" class="visually-hidden">Search Product</label>
@@ -101,8 +102,11 @@
                                 <button type="submit" class="nav-search-btn"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-5 col-xl-4 col-8">
                             <div class="nav-icons">
+                                <div class="nav-icon d-lg-none">
+                                    <i class="fas fa-search"></i>
+                                </div>
                                 <a href="./signin.html" class="nav-icon">
                                     <span><i class="fa-solid fa-user"></i></span>
                                     <p>Account</p>
@@ -116,7 +120,7 @@
                                     <p>Compare</p>
                                 </a>
                                 <div class="nav-icon cart">
-                                    <p><span>0</span> Item(s) - <span>0</span>&#2547; <i class="fa-solid fa-cart-arrow-down"></i></p>
+                                    <p class="meta-data"><span>0</span> <span>Item(s) -</span> <span>0&#2547;</span> <i class="fa-solid fa-cart-arrow-down"></i></p>
                                     <span class="count">0</span>
                                     <div class="nav-cart">
                                         <div class="nav-cart-heading">
@@ -150,9 +154,9 @@
         <nav class="ecom-nav">
             <div class="container">
                 <ul class="ecom-main-nav">
-                    <li class="has-children"><a href="#">Desktop</a>
+                    <li class="has-children"><a href="./product-category.html">Desktop</a>
                         <ul class="sub-menu">
-                            <li><a href="#">Special PC</a></li>
+                            <li><a href="./product-category.html">Special PC</a></li>
                             <li class="has-children"><a href="#">Star PC <span><i class="fa-solid fa-angle-right"></i></span></a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Ryzen PC</a></li>
