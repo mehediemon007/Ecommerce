@@ -200,6 +200,44 @@
         $("i",this).toggleClass("fa-circle-plus fa-circle-minus")
     })
 
+    // Mobile Nav
+
+    $(".nav-toggle").on("click",function(){
+
+        $("i",this).toggleClass("fa-bars fa-times");
+
+        $(".ecom-nav").toggleClass("show");
+        $(".ecom-header").toggleClass("show")
+    })
+
+    // Mobile Sub Menu
+
+    
+    if($(window).width() <= 1199){
+       
+        $(".ecom-main-nav .has-children a").on("click",function(e){
+
+            e.preventDefault();
+            $(this).next(".sub-menu").slideToggle("300");
+    
+        })
+
+    }
+
+    // Nav Modal
+
+    $(".nav-icon .fa-search").on("click",function(){
+
+        $(".nav-modal").addClass("show");
+
+    })
+
+    $(".serach-close").on("click",function(){
+
+        $(".nav-modal").removeClass("show")
+
+    })
+
 })(jQuery);
 
 (function(){

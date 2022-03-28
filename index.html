@@ -51,12 +51,6 @@
                         </div>
                         <div class="col-8">
                             <div class="toolbar-items">
-                                <!-- <a href="#" class="toolbar-item">
-                                    <span class="toolbar-icon"></span>
-                                    <span class="toolbar-content">
-                                        <h6>Graphic Cards</h6>
-                                    </span>
-                                </a> -->
                                 <a href="#" class="toolbar-item">
                                     <span class="toolbar-icon"><i class="fa-solid fa-tag"></i></span>
                                     <span class="toolbar-content">
@@ -87,12 +81,13 @@
                 </div>
                 <div class="header-middle">
                     <div class="row align-items-center">
-                        <div class="col-2">
-                            <div class="ecom-logo">
+                        <div class="col-lg-2 col-4">
+                            <span class="nav-toggle d-xl-none"><i class="fas fa-bars"></i></span>
+                            <div class="ecom-logo d-inline-block">
                                 <a href="index.html"><h2 class="text-white">TechCom</h2></a>
                             </div>
                         </div>
-                        <div class="col-5 col-xl-6">
+                        <div class="col-5 col-xl-6 d-none d-lg-block">
                             <form class="nav-search">
                                 <fieldset class="nav-search-input">
                                     <label for="nav-search" class="visually-hidden">Search Product</label>
@@ -101,8 +96,11 @@
                                 <button type="submit" class="nav-search-btn"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
-                        <div class="col-5 col-xl-4">
+                        <div class="col-lg-5 col-xl-4 col-8">
                             <div class="nav-icons">
+                                <div class="nav-icon d-lg-none">
+                                    <i class="fas fa-search"></i>
+                                </div>
                                 <a href="./signin.html" class="nav-icon">
                                     <span><i class="fa-solid fa-user"></i></span>
                                     <p>Account</p>
@@ -1555,6 +1553,18 @@
             </div>
         </div>
     </footer>
+
+    <!-- Nav Search Modal -->
+
+    <div class="nav-modal">
+        <div class="container">
+            <span class="serach-close"><i class="fas fa-times"></i></span>
+            <div class="nav-search">
+                <input type="text" placeholder="Search for items and brands">
+                <span class="search-icon"><i class="fas fa-search"></i></span>
+            </div>
+        </div>
+    </div>
 
     <!-- Js files -->
     <script src="js/modernizr-3.5.0.min.js"></script>
