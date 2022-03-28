@@ -228,8 +228,16 @@
 
 @media only screen and (max-width:991px){
 
+    .nav-modal{
+        top: 44px;
+    }
+
     .feature-products{
         grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    }
+
+    .categori-details{
+        grid-template-columns: 1fr;
     }
 
     .single-support{
@@ -311,7 +319,8 @@
         padding: 2px 4px;
     }
 
-    .feature-products{
+    .feature-products,
+    .filtered-products{
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -338,4 +347,8 @@
 
 @media only screen and (max-width:320px){
     
+    .feature-products,
+    .filtered-products{
+        grid-template-columns: 1fr;
+    }
 }
