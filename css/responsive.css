@@ -153,6 +153,10 @@
         padding: 2px 4px;
     }
 
+    .feature-products{
+        grid-template-columns: repeat(2,1fr);
+    }
+
     .footer-services{
         grid-template-columns: 1fr;
     }
@@ -168,10 +172,6 @@
 
     .phone-brands{
         grid-template-columns: repeat(5,1fr);
-    }
-
-    .feature-products{
-        grid-template-columns: repeat(2,1fr);
     }
 
 }
