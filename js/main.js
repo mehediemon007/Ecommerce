@@ -205,9 +205,8 @@
     $(".nav-toggle").on("click",function(){
 
         $("i",this).toggleClass("fa-bars fa-times");
-
         $(".ecom-nav").toggleClass("show");
-        $(".ecom-header").toggleClass("show")
+
     })
 
     // Mobile Sub Menu
@@ -219,6 +218,7 @@
 
             e.preventDefault();
             $(this).next(".sub-menu").slideToggle("300");
+            $(this).toggleClass("active")
     
         })
 

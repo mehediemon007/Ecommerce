@@ -123,6 +123,14 @@
 /* Max Width 1199px */
 @media only screen and (max-width:1199px){
 
+    .header-wpr{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
     .ecom-banner .single-slide{
         height: auto;
     }
@@ -154,19 +162,10 @@
 
     /* Mobile Menu */
 
-    .ecom-header.show{
-        position: fixed;
-        width: 100%;
-        top:0;
-        left: 0;
-        z-index: 100;
-    }
-
     .nav-toggle{
         display: inline-block;
         width: 20px;
         height: max-content;
-        margin-right: 8px;
         cursor: pointer;
         transition: var(--transition);
     }
@@ -207,7 +206,12 @@
         top: 50%;
         right: 5px;
         font-size: 1.25rem;
+        transition: var(--transition);
         transform: translateY(-50%);
+    }
+
+    li.has-children > a.active::after{
+        content: "-";
     }
 
     .ecom-main-nav .sub-menu{
@@ -266,8 +270,26 @@
     }
 }
 
+/* Max Width 767px */
+@media only screen and (max-width:767px){
+
+    .cart .meta-data span{
+        display: none;
+    }
+}
+
 /* Max Width 480px */
 @media only screen and (max-width:480px){
+
+    .nav-icons{
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    .nav-icon i,
+    .nav-toggle i{
+        font-size: 1rem;
+    }
 
     .top-selling-links{
         flex-wrap: nowrap;
