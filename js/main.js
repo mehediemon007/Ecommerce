@@ -14,14 +14,17 @@
     // Top Selling
 
     $(".grid-five-col").owlCarousel({
-        items:5,
         margin:14,
         responsive:{
-            1201:{
+            1200:{
+                items:5,
                 mouseDrag:false
             },
             992:{
-                items:3.20,
+                items:4,
+            },
+            0:{
+                items:2
             }
         }
     })
@@ -36,11 +39,14 @@
         navText:[$(".owl-navigation .owl-nav-prev"),$(".owl-navigation .owl-nav-next")],
         mouseDrag:false,
         responsive:{
-            1201:{
+            1200:{
                 items:5
             },
             992:{
-                items:3,
+                items:4,
+            },
+            0:{
+                items:2
             }
         }
     })
