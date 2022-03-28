@@ -238,6 +238,24 @@
 
     })
 
+    // Category Filter Toggle
+
+    if($(".category-toggle").length){
+
+        $(".category-toggle").on("click",function(){
+
+            $(this).parent().removeClass("show")
+        })
+    }
+
+    if($(".product-filter").length){
+
+        $(".product-filter").on("click",function(){
+
+            $(".ecom-sidebar-widget").addClass("show")
+        })
+    }
+
 })(jQuery);
 
 (function(){

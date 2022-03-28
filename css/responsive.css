@@ -123,6 +123,10 @@
 /* Max Width 1199px */
 @media only screen and (max-width:1199px){
 
+    .ecom-main-content{
+        margin-top: 100px;
+    }
+
     .header-wpr{
         position: fixed;
         top: 0;
@@ -228,6 +232,10 @@
 
 @media only screen and (max-width:991px){
 
+    .ecom-main-content{
+        margin-top: 45px;
+    }
+
     .nav-modal{
         top: 44px;
     }
@@ -265,6 +273,22 @@
     .footer-services{
         grid-template-columns: repeat(2,1fr);
         grid-row-gap: 24px;
+    }
+
+    .categori-details .ecom-sidebar-widget {
+        position: fixed;
+        top: 44px;
+        right: -250px;
+        width: 250px;
+        height: 100vh;
+        z-index: 10;
+        padding: 10px 20px 50px;
+        overflow-y: auto;
+        transition: var(--transition);
+    }
+
+    .categori-details .ecom-sidebar-widget.show {
+        right: 0;
     }
 
     /* Mobile Menu */
