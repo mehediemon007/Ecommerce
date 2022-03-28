@@ -315,7 +315,7 @@
 
     .nav-icons{
         justify-content: flex-end;
-        gap: 8px;
+        gap: 5px;
     }
 
     .nav-icon i,
@@ -369,6 +369,18 @@
         grid-template-columns: repeat(5,1fr);
     }
 
+    .nav-icon i, .nav-toggle i{
+        font-size: 1.20rem;
+    }
+
+    .nav-icon{
+        width: 30px;
+    }
+
+    .nav-icon span + p{
+        display: none;
+    }
+
 }
 
 /* Max Width 320px */
@@ -382,5 +394,14 @@
     .feature-products,
     .filtered-products{
         grid-template-columns: 1fr;
+    }
+
+    .nav-icon i, .nav-toggle i{
+        font-size: 1.1rem;
+    }
+
+    .cart{
+        width: 30px !important;
+        padding: 4px;
     }
 }

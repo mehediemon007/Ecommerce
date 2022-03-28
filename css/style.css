@@ -431,6 +431,7 @@ label {
 }
 
 .cart {
+    width: max-content !important;
     background-color: rgba(225, 238, 250, 1);
     padding: 5px 10px;
     border-radius: 5px;
