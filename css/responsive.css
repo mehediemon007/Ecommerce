@@ -145,6 +145,19 @@
 /* Max Width 480px */
 @media only screen and (max-width:480px){
 
+    .top-selling-links{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .top-selling-links::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .top-selling-links .nav-link{
+        min-width: max-content;
+    }
+
     .price .off-tag{
         position: absolute;
         top: 8px;
