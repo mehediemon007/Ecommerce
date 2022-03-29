@@ -169,6 +169,10 @@
         padding: 10px 0;
     }
 
+    .ecom-pc-building{
+        width: 100%;
+    }
+
     /* Mobile Menu */
 
     .nav-toggle{
@@ -296,6 +300,10 @@
         right: 0;
     }
 
+    .ecom-pc-building .build-btn{
+        margin-bottom: 5px;
+    }
+
     /* Mobile Menu */
 
     .haeder-top{
@@ -349,6 +357,22 @@
 
     .product-review-tabs-content .nav li a.active:before{
         content: none;
+    }
+
+    .single-component{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        padding: 12px 8px;
+    }
+
+    .comp-details{
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .comp-price{
+        width: 90px;
     }
 }
 
@@ -429,7 +453,17 @@
 
     .product-review-tabs-content .nav li a{
         font-size: .90rem;
-        padding: 3px 6px;
+        padding: 0 5px;
+    }
+
+    .product-review-tabs-content{
+        margin-top: 20px;
+    }
+
+    .build-sec-header .row:first-child div[class^="col-"]{
+       width: 100%;
+       text-align: left !important;
+       margin-bottom: 5px;
     }
 
     .footer-services{
@@ -473,13 +507,14 @@
         width: 120px;
     }
 
-    /* .product-info .qty-add-to-cart-wrap{
-        flex-direction: column;
-        align-items: flex-start;
-    } */
-
     .btn-theme{
         padding: 14px 20px;
+    }
+
+    .build-sec-header .row div[class^="col-"]{
+        width: 100%;
+        margin-bottom: 5px;
+        text-align: left !important;   
     }
 
 }

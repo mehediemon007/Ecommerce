@@ -2275,6 +2275,11 @@ fieldset legend{
     font-weight: var(--font-weight-semi-bold);
 }
 
+.comp-details + div{
+    display: flex;
+    gap: 5px;
+}
+
 .comp-del{
     width: 30px;
     height: 30px;
