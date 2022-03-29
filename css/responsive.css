@@ -336,6 +336,20 @@
     .pagination-item{
         margin-top: 10px;
     }
+
+    .product-review-tabs-content .nav{
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+
+    .product-review-tabs-content .nav li a{
+        padding: 5px 10px;
+    }
+
+    .product-review-tabs-content .nav li a.active:before{
+        content: none;
+    }
 }
 
 /* Max Width 575px */
@@ -413,6 +427,11 @@
         text-align: left !important;
     }
 
+    .product-review-tabs-content .nav li a{
+        font-size: .90rem;
+        padding: 3px 6px;
+    }
+
     .footer-services{
         grid-template-columns: 1fr;
     }
@@ -452,6 +471,15 @@
 
     .build-products .single-product .product-image{
         width: 120px;
+    }
+
+    /* .product-info .qty-add-to-cart-wrap{
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+
+    .btn-theme{
+        padding: 14px 20px;
     }
 
 }
