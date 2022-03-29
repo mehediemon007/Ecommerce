@@ -256,6 +256,20 @@
         })
     }
 
+    if($(window).width() <= 767){
+
+        if($(".acc-menu-label").length){
+
+            $(".acc-menu-label").css("cursor","pointer");
+
+            $(".acc-menu-label").on("click",function(){
+
+                $(this).next("ul").toggleClass("show");
+
+            })
+        }
+    }
+
 })(jQuery);
 
 (function(){

@@ -312,6 +312,31 @@
     .product-table tr td, .product-table th{
         padding: 10px 5px;
     }
+
+    .ecom-acc-menu{
+        padding: 8px 16px;
+    }
+
+    .ecom-acc-menu ul{
+        display: none;
+        margin: 0;
+        transition: var(--transition);
+    }
+
+    .ecom-acc-menu ul.show{
+        display: block;
+        margin: 8px 0 8px 24px;
+    }
+}
+
+/* Max Width 575px */
+@media only screen and (max-width:575px){
+
+    .form-group label{
+        text-align: left;
+        margin-bottom: 8px;
+    }
+    
 }
 
 /* Max Width 480px */
