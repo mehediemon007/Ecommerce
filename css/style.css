@@ -2290,7 +2290,7 @@ fieldset legend{
     display: grid;
     grid-template-columns: 1fr 120px;
     align-items: center;
-    justify-items: space-between;
+    justify-content: space-between;
     box-shadow: none;
     border: 1px solid #d3d3d3;
     border-radius: 4px;
