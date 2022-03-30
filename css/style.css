@@ -2327,14 +2327,15 @@ fieldset legend{
 /* Tracking Orders */
 
 .voucher-code input {
-    width: 100%;
+    width: 80%;
     box-shadow: inset -4px 4px 4px rgb(0 0 0 / 10%), inset 4px -4px 4px rgb(0 0 0 / 10%);
     border-radius: 5px;
     padding: 8px 16px;
 }
 
 .voucher-code .voucher-btn {
-    padding: 7px 16px;
+    width: 18%;
+    padding: 7px 0;
     background-color: var(--white-color);
     border: 0.5px solid #808080;
     border-radius: 5px;
