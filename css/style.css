@@ -2324,6 +2324,82 @@ fieldset legend{
     margin-left: 24px;
 }
 
+/* Tracking Orders */
+
+.voucher-code input {
+    width: 100%;
+    box-shadow: inset -4px 4px 4px rgb(0 0 0 / 10%), inset 4px -4px 4px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.voucher-code .voucher-btn {
+    padding: 7px 16px;
+    background-color: var(--white-color);
+    border: 0.5px solid #808080;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+
+.single-order-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #F3F3F3;
+    margin-bottom: 20px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.status-item {
+    display: inline-block;
+    font-size: .81rem;
+    color: var(--white-color);
+    padding: 3px 8px;
+    border-radius: 0 5px 5px 0;
+}
+
+.status-item:not(:last-of-type) {
+    margin-right: -3px;
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid var(--white-color);
+}
+
+.status-cancel{
+    background-color: #FE1924;
+}
+
+.status-paid{
+    background-color: #00A84F;
+}
+
+.status-unpaid,
+.status-picked {
+    background-color: #FFB700;
+}
+
+.status-delivered{
+    background-color: #49B81F;
+}
+
+.status-pending{
+    background-color: #363636;
+}
+
+.status-return{
+    color: var(--text-color);
+    background-color: #E4E4E4;
+}
+
+.status-process{
+    background-color: #BE20CD;
+}
+
+.status-shipped{
+    background-color: #2B87FF;
+}
+
 
 /* Footer */
 
@@ -2414,7 +2490,7 @@ fieldset legend{
 }
 
 
-/* Woo Footer */
+/* Ecom Footer */
 
 .ecom-footer {
     background-color: var(--primary-color);
