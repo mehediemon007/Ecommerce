@@ -517,6 +517,25 @@
         text-align: left !important;   
     }
 
+    .track .icon{
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .track .step::before{
+        height: 5px;
+        top: 15px;
+    }
+
+    .track{
+        height: 5px;
+    }
+
+    .track .step{
+        margin-top: -15px;
+    }
+
 }
 
 /* Max Width 320px */
