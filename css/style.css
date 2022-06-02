@@ -2550,6 +2550,10 @@ form.billing-infos .select2-container--default .select2-selection--single .selec
     line-height: 38px;
 }
 
+.select2-dropdown{
+    z-index: 1;
+}
+
 .ecom-order-summary{
     padding: 16px 20px;
     border: 6px solid #EFEFEF;
