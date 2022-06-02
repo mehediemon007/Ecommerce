@@ -270,6 +270,13 @@
         }
     }
 
+    // Country Select
+
+    if($(".country-select-box").length){
+        
+        $('.country-select-box').select2();
+    }
+
 })(jQuery);
 
 (function(){
