@@ -2525,6 +2525,22 @@ ul.row-sm {
     border-color: var(--secondary-color);
 }
 
+/* Checkout */
+
+form.billing-infos label{
+    margin-bottom: 8px;
+}
+
+form.billing-infos .form-group{
+    margin-bottom: 14px;
+}
+
+.ecom-order-summary{
+    padding: 16px 20px;
+    border: 6px solid #EFEFEF;
+    border-radius: 5px;
+}
+
 
 /* Footer */
 
