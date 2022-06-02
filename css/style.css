@@ -2560,6 +2560,81 @@ form.billing-infos .select2-container--default .select2-selection--single .selec
     border-radius: 5px;
 }
 
+.oreder-products .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 12px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.order-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin:10px 0;
+    min-height: 40px;
+}
+
+.order-total li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+    border-top: 1px solid #ced4da; 
+}
+
+.pay-method{
+    padding: 16px 0;
+    border-bottom: 1px solid #ced4da;
+}
+
+.pay-method label{
+    position: relative;
+    padding-left: 24px;
+    cursor: pointer;
+}
+
+.pay-method input[type="radio"]{
+    appearance: none;
+}
+
+.pay-method label::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1.2px solid var(--secondary-color);
+    transform: translateY(-50%);
+    transition: border-width .005s linear;
+}
+
+.pay-method .accordion{
+    position: relative;
+    height: 0px;
+    padding: 0 26px;
+    overflow: hidden;
+    transition: height var(--transition) ease-in-out, padding-top .3s ease-in-out;
+    z-index: 10;
+}
+
+.pay-method input[type="radio"]:checked ~ .accordion{
+
+    transition: height var(--transition) ease-in-out, padding-top .3s ease-in-out;
+}
+
+.pay-method input[type="radio"]:checked ~ .accordion{
+    height: max-content;
+    padding-top: 14px;
+}
+
+.pay-method input[type="radio"]:checked ~ label::before{
+    border-width: 5px;
+}
+
 
 /* Footer */
 
