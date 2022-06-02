@@ -259,135 +259,140 @@
                 <a class="breadcrumb-link active">Checkout</a>
             </div>
 
-            <!-- Sign In -->
+            <!-- checkout -->
 
-            <div class="row py-5">
-                <div class="col-md-7">
-                    <div class="ecom-biling pe-lg-4">
-                        <h4 class="mb-2">Billing Details</h4>
-                        <form action="" class="billing-infos">
-                            <fieldset>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12 col-sm-6">
-                                        <div class="form-group required">
-                                            <label for="input-firstname">First Name</label>
-                                            <div>
-                                                <input type="text" placeholder="First Name" class="form-control" id="input-firstname">
+            <div class="ecom-checkout">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="ecom-biling pe-lg-4">
+                            <h4 class="mb-2">Billing Details</h4>
+                            <form action="" class="billing-infos">
+                                <fieldset>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-12 col-sm-6">
+                                            <div class="form-group required">
+                                                <label for="input-firstname">First Name</label>
+                                                <div>
+                                                    <input type="text" placeholder="First Name" class="form-control" id="input-firstname">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12 col-sm-6">
+                                            <div class="form-group required">
+                                                <label for="input-lastname">Last Name</label>
+                                                <div>
+                                                    <input type="text" placeholder="Last Name" class="form-control" id="input-lastname">
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-12 col-sm-6">
-                                        <div class="form-group required">
-                                            <label for="input-lastname">Last Name</label>
-                                            <div>
-                                                <input type="text" placeholder="Last Name" class="form-control" id="input-lastname">
-                                            </div>
+                                    <div class="form-group required">
+                                        <label for="input-email">E-mail</label>
+                                        <div>
+                                            <input type="text" placeholder="E-mail Address" class="form-control" id="input-email">
                                         </div>
                                     </div>
-                                </div>
-                                <div class="form-group required">
-                                    <label for="input-email">E-mail</label>
-                                    <div>
-                                        <input type="text" placeholder="E-mail Address" class="form-control" id="input-email">
+                                    <div class="form-group required">
+                                        <label for="input-phone">Phone</label>
+                                        <div>
+                                            <input type="tel" placeholder="Phone Number" class="form-control" id="input-phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group required">
-                                    <label for="input-phone">Phone</label>
-                                    <div>
-                                        <input type="tel" placeholder="Phone Number" class="form-control" id="input-phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                                    <div class="form-group required">
+                                        <label for="select-country">Country/Region</label>
+                                        <div>
+                                            <select class="country-select-box form-control" name="country" id="select-country">
+                                                <option value="AL">Bangladesh</option>
+                                                <option value="WY">Dhaka</option>
+                                                <option value="WY">Rajshahi</option>
+                                                <option value="WY">Sylhet</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+                                    <div class="form-group required">
+                                        <label for="input-street">Street Details</label>
+                                        <div class="mb-4">
+                                            <input type="text" placeholder="Street Name" class="form-control" id="input-street">
+                                        </div>
+                                        <div>
+                                            <input type="text" placeholder="Appartment(Optional)" class="form-control">
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-group required">
-                                    <label for="select-country">Country/Region</label>
-                                    <div>
-                                        <select class="country-select-box form-control" name="country" id="select-country">
-                                            <option value="AL">Bangladesh</option>
-                                            <option value="WY">Dhaka</option>
-                                            <option value="WY">Rajshahi</option>
-                                            <option value="WY">Sylhet</option>
-                                        </select>
+                                    <div class="form-group required">
+                                        <label for="input-city">City/Town</label>
+                                        <div>
+                                            <input type="text" placeholder="" class="form-control" id="input-city">
+                                        </div>
                                     </div>
-                                </div> 
-                                <div class="form-group required">
-                                    <label for="input-street">Street Details</label>
-                                    <div class="mb-4">
-                                        <input type="text" placeholder="Street Name" class="form-control" id="input-street">
+                                    <div class="form-group required">
+                                        <label for="input-zip">Zip</label>
+                                        <div>
+                                            <input type="text" placeholder="" class="form-control" id="input-zip">
+                                        </div>
                                     </div>
-                                    <div>
-                                        <input type="text" placeholder="Appartment(Optional)" class="form-control">
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <label for="input-city">City/Town</label>
-                                    <div>
-                                        <input type="text" placeholder="" class="form-control" id="input-city">
-                                    </div>
-                                </div>
-                                <div class="form-group required">
-                                    <label for="input-zip">Zip</label>
-                                    <div>
-                                        <input type="text" placeholder="" class="form-control" id="input-zip">
-                                    </div>
-                                </div>
-                            </fieldset>
-                        </form>
+                                </fieldset>
+                            </form>
+                            <button class="total-btn mt-1">Save Details</button>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="ecom-order-summary mb-4 mb-md-0">
-                        <div class="">
-                            <h4 class="mb-2">Order Summery</h4>
-                            <div class="oreder-products">
-                                <div class="heading">
-                                    <h5>Product</h5>
-                                    <h5>Sub-total</h5>
+                    <div class="col-md-5 mt-4 mt-md-0">
+                        <div class="ecom-order-summary mb-4 mb-md-0">
+                            <div class="">
+                                <h4 class="mb-2">Order Summery</h4>
+                                <div class="oreder-products">
+                                    <div class="heading">
+                                        <h5>Product</h5>
+                                        <h5>Sub-total</h5>
+                                    </div>
+                                    <div class="order-product">
+                                        <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
+                                        <p class="text-end">tk. 250</p>
+                                    </div>
+                                    <div class="order-product">
+                                        <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
+                                        <p class="text-end">tk. 250</p>
+                                    </div>
+                                    <div class="order-product">
+                                        <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
+                                        <p class="text-end">tk. 250</p>
+                                    </div>
                                 </div>
-                                <div class="order-product">
-                                    <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
-                                    <p class="text-end">tk. 250</p>
+                                <ul class="order-total mt-3">
+                                    <li><h5>Subtotal</h5><p><b>Tk. 1200</b></p></li>
+                                    <li><h5>Total</h5><p><b>Tk. 1200</b></p></li>
+                                </ul>
+                                <div class="payment-methods">
+                                    <div class="pay-method">
+                                        <input id="online-pay" name="payment" type="radio" checked/> 
+                                        <label for="online-pay"><h6>Online Payment</h6></label>
+                                        <div class="accordion">
+                                            <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                        </div>
+                                    </div>
+                                    <div class="pay-method">
+                                        <input id="card-pay" name="payment" type="radio"/>
+                                        <label for="card-pay"><h6>Credit Card</h6></label>
+                                        <div class="accordion">
+                                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                        </div>
+                                    </div>
+                                    <div class="pay-method">
+                                        <input id="cod-pay" name="payment" type="radio"/>
+                                        <label for="cod-pay"><h6>Cash on delivery</h6></label>
+                                        <div class="accordion">
+                                            <p>Pay with cash upon delivery.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="order-product">
-                                    <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
-                                    <p class="text-end">tk. 250</p>
-                                </div>
-                                <div class="order-product">
-                                    <p>Top Freezer Retro Refrigerator Frost Free <span> x 1</span> </p>
-                                    <p class="text-end">tk. 250</p>
-                                </div>
+                                <p class="my-3">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+                                <button class="total-btn w-100">Place Order</button>
                             </div>
-                            <ul class="order-total mt-3">
-                                <li><h5>Subtotal</h5><p><b>Tk. 1200</b></p></li>
-                                <li><h5>Total</h5><p><b>Tk. 1200</b></p></li>
-                            </ul>
-                            <div class="payment-methods">
-                                <div class="pay-method">
-                                    <input id="online-pay" name="payment" type="radio" checked/> 
-                                    <label for="online-pay"><h6>Online Payment</h6></label>
-                                    <div class="accordion">
-                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
-                                    </div>
-                                </div>
-                                <div class="pay-method">
-                                    <input id="card-pay" name="payment" type="radio"/>
-                                    <label for="card-pay"><h6>Credit Card</h6></label>
-                                    <div class="accordion">
-                                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
-                                    </div>
-                                </div>
-                                <div class="pay-method">
-                                    <input id="cod-pay" name="payment" type="radio"/>
-                                    <label for="cod-pay"><h6>Cash on delivery</h6></label>
-                                    <div class="accordion">
-                                        <p>Pay with cash upon delivery.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="my-3">Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
-                            <button class="total-btn w-100">Place Order</button>
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </div>
     </main>
 

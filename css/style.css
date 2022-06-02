@@ -2527,6 +2527,10 @@ ul.row-sm {
 
 /* Checkout */
 
+.ecom-checkout{
+    padding: 20px 0 50px;
+}
+
 form.billing-infos label{
     margin-bottom: 8px;
 }
