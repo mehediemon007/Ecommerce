@@ -593,6 +593,9 @@ label {
     height: calc(100vh - 140px);
 }
 
+.ecom-banner .single-slide img{
+    height: 100%;
+}
 
 /* .ecom-banner .single-slide::before{
     position: absolute;
